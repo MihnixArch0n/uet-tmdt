@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "VN-HN",
+        "name": "Thành phố Hà Nội",
+        "level": "province",
+        "center": [105.8342, 21.0278]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.3, 20.8],
+            [106.0, 20.8],
+            [106.1, 21.3],
+            [105.6, 21.4],
+            [105.3, 20.8]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "VN-SG",
+        "name": "Thành phố Hồ Chí Minh",
+        "level": "province",
+        "center": [106.6297, 10.8231]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.3, 10.4],
+            [107.0, 10.4],
+            [107.1, 11.1],
+            [106.4, 11.2],
+            [106.3, 10.4]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "VN-DN",
+        "name": "Thành phố Đà Nẵng",
+        "level": "province",
+        "center": [108.2022, 16.0544]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.9, 15.9],
+            [108.4, 15.9],
+            [108.4, 16.3],
+            [107.9, 16.3],
+            [107.9, 15.9]
+          ]
+        ]
+      }
+    }
+  ]
+}

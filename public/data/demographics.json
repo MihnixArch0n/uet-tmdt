@@ -1,0 +1,41 @@
+[
+  {
+    "code": "VN-HN",
+    "population": 8435700,
+    "density": 2511,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": {
+      "under18": 22.5,
+      "genZ": 18.2,
+      "workingAge": 44.8,
+      "above45": 14.5
+    },
+    "urbanizationRate": 49.2
+  },
+  {
+    "code": "VN-SG",
+    "population": 9166800,
+    "density": 4375,
+    "genderRatio": { "male": 48.7, "female": 51.3 },
+    "ageGroups": {
+      "under18": 19.8,
+      "genZ": 21.4,
+      "workingAge": 47.3,
+      "above45": 11.5
+    },
+    "urbanizationRate": 79.5
+  },
+  {
+    "code": "VN-DN",
+    "population": 1195500,
+    "density": 931,
+    "genderRatio": { "male": 49.3, "female": 50.7 },
+    "ageGroups": {
+      "under18": 21.0,
+      "genZ": 19.5,
+      "workingAge": 45.0,
+      "above45": 14.5
+    },
+    "urbanizationRate": 87.2
+  }
+]

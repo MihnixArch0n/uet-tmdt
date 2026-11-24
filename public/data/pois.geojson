@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.7826, 21.0368]
+      },
+      "properties": {
+        "id": "poi-01",
+        "name": "Tổng kho Shopee Express Cầu Giấy",
+        "category": "warehouse",
+        "brand": "Shopee",
+        "address": "Duy Tân, Cầu Giấy, Hà Nội",
+        "regionCode": "VN-HN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.8194, 21.0142]
+      },
+      "properties": {
+        "id": "poi-02",
+        "name": "Bưu cục Giao Hàng Tiết Kiệm Đống Đa",
+        "category": "post_office",
+        "brand": "GHTK",
+        "address": "Thái Hà, Đống Đa, Hà Nội",
+        "regionCode": "VN-HN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6983, 10.7719]
+      },
+      "properties": {
+        "id": "poi-03",
+        "name": "Hub Phân loại Hàng Lazada Tân Bình",
+        "category": "logistics_hub",
+        "brand": "Lazada",
+        "address": "Cộng Hòa, Tân Bình, TP.HCM",
+        "regionCode": "VN-SG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7218, 10.7294]
+      },
+      "properties": {
+        "id": "poi-04",
+        "name": "Trung tâm Thương mại Crescent Mall",
+        "category": "mall",
+        "brand": "Crescent",
+        "address": "Phú Mỹ Hưng, Quận 7, TP.HCM",
+        "regionCode": "VN-SG"
+      }
+    }
+  ]
+}

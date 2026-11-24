@@ -1,0 +1,41 @@
+[
+  {
+    "code": "VN-HN",
+    "ebiScore": 85.8,
+    "avgMonthlyIncome": 7010000,
+    "monthlyOnlineOrders": 4.2,
+    "avgOrderValue": 285000,
+    "topCategories": [
+      { "category": "Thời trang & Phụ kiện", "marketShare": 32, "growthRate": 18.5 },
+      { "category": "Công nghệ & Điện máy", "marketShare": 26, "growthRate": 12.0 },
+      { "category": "FMCG & Mỹ phẩm", "marketShare": 24, "growthRate": 25.4 },
+      { "category": "Mẹ & Bé", "marketShare": 18, "growthRate": 14.2 }
+    ]
+  },
+  {
+    "code": "VN-SG",
+    "ebiScore": 89.2,
+    "avgMonthlyIncome": 7520000,
+    "monthlyOnlineOrders": 5.1,
+    "avgOrderValue": 310000,
+    "topCategories": [
+      { "category": "Thời trang & Phụ kiện", "marketShare": 35, "growthRate": 20.1 },
+      { "category": "FMCG & Mỹ phẩm", "marketShare": 28, "growthRate": 28.0 },
+      { "category": "Công nghệ & Điện tử", "marketShare": 22, "growthRate": 15.5 },
+      { "category": "Đồ gia dụng", "marketShare": 15, "growthRate": 11.8 }
+    ]
+  },
+  {
+    "code": "VN-DN",
+    "ebiScore": 64.5,
+    "avgMonthlyIncome": 5850000,
+    "monthlyOnlineOrders": 3.0,
+    "avgOrderValue": 220000,
+    "topCategories": [
+      { "category": "Thời trang & Du lịch", "marketShare": 38, "growthRate": 22.0 },
+      { "category": "Đặc sản & Thực phẩm", "marketShare": 25, "growthRate": 19.3 },
+      { "category": "Mỹ phẩm chăm sóc cá nhân", "marketShare": 21, "growthRate": 16.5 },
+      { "category": "Thiết bị điện tử", "marketShare": 16, "growthRate": 9.4 }
+    ]
+  }
+]
