@@ -1,0 +1,173 @@
+{
+  "version": 2,
+  "skills": {
+    "ai-sdk": {
+      "source": "vercel/ai",
+      "commit": "8956ca55ed9c31b4b7680621a10ad0269f9629b1",
+      "sourceType": "github",
+      "skillPath": "skills/ai-sdk/SKILL.md",
+      "computedHash": "59cd2dc82c5458f2819992fc3d27204ed16edfc9170870c6f8f04c44bac17772"
+    },
+    "cartography-geoviz": {
+      "source": "muend/geoai-skills",
+      "commit": "b3a642db8ea0a8580ba87af8ce3d3a6c88d3c0f9",
+      "sourceType": "github",
+      "skillPath": "skills/cartography-geoviz/SKILL.md",
+      "computedHash": "e83b55242eea57aaca684b5a8666ba247d16b2c277aba9191ee58266bc6216c6"
+    },
+    "commit-smart": {
+      "source": "davila7/claude-code-templates",
+      "commit": "03c316de3528b639d37c426314cf5b91b4e65e01",
+      "sourceType": "github",
+      "skillPath": "cli-tool/components/skills/git/commit-smart/SKILL.md",
+      "computedHash": "729b995c18fde4840dd50d87c2d8205d4a8c9ee72a051b008e05f8919d7ed27e"
+    },
+    "deploy-to-vercel": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-to-vercel/SKILL.md",
+      "computedHash": "66b99dfa063b1c405155e9bffd99c04ca3e312e81b168d540b757bb194b7400a"
+    },
+    "e2e-testing-patterns": {
+      "source": "wshobson/agents",
+      "commit": "34e50fee32114afd9475f25d81492712f08cb71c",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md",
+      "computedHash": "4cbd1f5464140eceee76fb75df11e3a30a4d6b3386bfc51af062688aaa425d92"
+    },
+    "geo-data-engineering": {
+      "source": "muend/geoai-skills",
+      "commit": "b3a642db8ea0a8580ba87af8ce3d3a6c88d3c0f9",
+      "sourceType": "github",
+      "skillPath": "skills/geo-data-engineering/SKILL.md",
+      "computedHash": "d6362133f3038fdd77297d9a787da46102a96e3ab7f5ae4db61fd6ddd6e8a3d5"
+    },
+    "maplibre-cartography": {
+      "source": "maplibre/maplibre-agent-skills",
+      "commit": "3ee4de6bf4a92e335f01fa039ef642c0279a4103",
+      "sourceType": "github",
+      "skillPath": "skills/maplibre-cartography/SKILL.md",
+      "computedHash": "403a0942529a01a2b1bde7ac163e3e558c086814bb6b454b8c74d44da6026374"
+    },
+    "maplibre-source-wiring": {
+      "source": "maplibre/maplibre-agent-skills",
+      "commit": "3ee4de6bf4a92e335f01fa039ef642c0279a4103",
+      "sourceType": "github",
+      "skillPath": "skills/maplibre-source-wiring/SKILL.md",
+      "computedHash": "6373e797b08b038f9038c248995e237a2bb9d214659bc7689f8d47fc0680b58c"
+    },
+    "maplibre-sprites-icons": {
+      "source": "maplibre/maplibre-agent-skills",
+      "commit": "3ee4de6bf4a92e335f01fa039ef642c0279a4103",
+      "sourceType": "github",
+      "skillPath": "skills/maplibre-sprites-icons/SKILL.md",
+      "computedHash": "398d4029043f39110118056b1a3e0f6bd2441de9762777a44a1569ce6c10631a"
+    },
+    "maplibre-tile-sources": {
+      "source": "maplibre/maplibre-agent-skills",
+      "commit": "3ee4de6bf4a92e335f01fa039ef642c0279a4103",
+      "sourceType": "github",
+      "skillPath": "skills/maplibre-tile-sources/SKILL.md",
+      "computedHash": "ef014a40acd9d04172ebf9744563aaedbd38994f57640f7747b43fda58abb795"
+    },
+    "mcda-suitability-analysis": {
+      "source": "muend/geoai-skills",
+      "commit": "b3a642db8ea0a8580ba87af8ce3d3a6c88d3c0f9",
+      "sourceType": "github",
+      "skillPath": "skills/mcda-suitability-analysis/SKILL.md",
+      "computedHash": "8c6e2690d24e7fb177c54b9f2dc0ae4a353a0de6dc95cc884046204868ac289a"
+    },
+    "network-accessibility-analysis": {
+      "source": "muend/geoai-skills",
+      "commit": "b3a642db8ea0a8580ba87af8ce3d3a6c88d3c0f9",
+      "sourceType": "github",
+      "skillPath": "skills/network-accessibility-analysis/SKILL.md",
+      "computedHash": "2f0676b5740590641230744b02fea2ce743dfc9486c777ee949225782d4ca8e5"
+    },
+    "next-dev-loop": {
+      "source": "vercel/next.js",
+      "commit": "a8c816a681bb008c0ce10a6c12d1bb9d73ac2603",
+      "sourceType": "github",
+      "skillPath": "skills/next-dev-loop/SKILL.md",
+      "computedHash": "78ebafaabaa8fd170da34957943f5845436f66c04daf85a93fc759f38a50a4ca"
+    },
+    "playwright-cli": {
+      "source": "microsoft/playwright-cli",
+      "commit": "c872a33cec77fa03c28fa7c6d1ad99d15d04ce42",
+      "sourceType": "github",
+      "skillPath": "skills/playwright-cli/SKILL.md",
+      "computedHash": "54c3f1e47b2566ecc3a2c1515823f77f4609edfe8029351924311dafc0d2ba66"
+    },
+    "pr-creator": {
+      "source": "google-gemini/gemini-cli",
+      "commit": "03862c4164844c6cf8063b4cc48546ec1609cf2e",
+      "sourceType": "github",
+      "skillPath": ".gemini/skills/pr-creator/SKILL.md",
+      "computedHash": "9d4209e63c0ba7cb57d620a5dbd434447b5ea2267afaa2a82a4ce5659fc473a4"
+    },
+    "shadcn": {
+      "source": "shadcn-ui/ui",
+      "commit": "055aa6b7837b1808456a24beb4c97a677864aa82",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "388962d16c7a4f13aaeee0d8f128e50a87df8553d42ef7988c39c0e1c74a40e8"
+    },
+    "spatial-statistics": {
+      "source": "muend/geoai-skills",
+      "commit": "b3a642db8ea0a8580ba87af8ce3d3a6c88d3c0f9",
+      "sourceType": "github",
+      "skillPath": "skills/spatial-statistics/SKILL.md",
+      "computedHash": "f48d10509eb3e31239a34c42cbb7ae18c973117a38878b22effba4c0cd21db5e"
+    },
+    "streamdown": {
+      "source": "vercel/streamdown",
+      "commit": "cb65880bed6ce882524daccc27ef9fbc630eccd3",
+      "sourceType": "github",
+      "skillPath": "skills/streamdown/SKILL.md",
+      "computedHash": "0afa0910d93f684a5441460dfcf9157c15783c0ce84cff0bb8cb3227e1a6515b"
+    },
+    "swe-devops-standards": {
+      "source": "muend/geoai-skills",
+      "commit": "b3a642db8ea0a8580ba87af8ce3d3a6c88d3c0f9",
+      "sourceType": "github",
+      "skillPath": "skills/swe-devops-standards/SKILL.md",
+      "computedHash": "0e079069f54097eba94b33e41b4da69bef466d0f02760c6ca1484f89915d0804"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "sourceType": "github",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "computedHash": "79ff0583175346e39431b0dc713b223edd1bd7a7ea2b6c8b78b2fb9a3fed6782"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "f2f7266b07805025421611656045e9b44b41e2eb",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "b2defbac0cde30996f120c953d243b5ccd396c55e550a98a08d4206eaadac670"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "computedHash": "f711ed8b16162eaa712abbcdbbae6c926f86c57e60127735fecc3ad0dd85b3fa"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "7991ed4fbecdac23f47c1a40c243e00a212a9e7f3604db93959b3ae11dffe299"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "5994e4cfd86144903d2ba750f862b9e36af15e3297aac983679e347b99f6cb71"
+    }
+  }
+}
