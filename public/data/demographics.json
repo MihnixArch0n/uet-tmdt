@@ -1,41 +1,858 @@
 [
   {
     "code": "VN-HN",
-    "population": 8435700,
-    "density": 2511,
+    "population": 8587100,
+    "density": 2556,
     "genderRatio": { "male": 49.6, "female": 50.4 },
-    "ageGroups": {
-      "under18": 22.5,
-      "genZ": 18.2,
-      "workingAge": 44.8,
-      "above45": 14.5
-    },
+    "ageGroups": { "under18": 22.5, "genZ": 18.2, "workingAge": 44.8, "above45": 14.5 },
     "urbanizationRate": 49.2
   },
   {
     "code": "VN-SG",
-    "population": 9166800,
-    "density": 4375,
+    "population": 9456700,
+    "density": 4513,
     "genderRatio": { "male": 48.7, "female": 51.3 },
-    "ageGroups": {
-      "under18": 19.8,
-      "genZ": 21.4,
-      "workingAge": 47.3,
-      "above45": 11.5
-    },
+    "ageGroups": { "under18": 19.8, "genZ": 21.4, "workingAge": 47.3, "above45": 11.5 },
     "urbanizationRate": 79.5
   },
   {
     "code": "VN-DN",
-    "population": 1195500,
-    "density": 931,
+    "population": 1245200,
+    "density": 969,
     "genderRatio": { "male": 49.3, "female": 50.7 },
-    "ageGroups": {
-      "under18": 21.0,
-      "genZ": 19.5,
-      "workingAge": 45.0,
-      "above45": 14.5
-    },
+    "ageGroups": { "under18": 21.0, "genZ": 19.5, "workingAge": 45.0, "above45": 14.5 },
     "urbanizationRate": 87.2
+  },
+  {
+    "code": "VN-HP",
+    "population": 2103500,
+    "density": 1378,
+    "genderRatio": { "male": 49.5, "female": 50.5 },
+    "ageGroups": { "under18": 21.8, "genZ": 15.6, "workingAge": 42.4, "above45": 20.2 },
+    "urbanizationRate": 46.1
+  },
+  {
+    "code": "VN-CT",
+    "population": 1259600,
+    "density": 874,
+    "genderRatio": { "male": 49.4, "female": 50.6 },
+    "ageGroups": { "under18": 20.4, "genZ": 16.8, "workingAge": 43.2, "above45": 19.6 },
+    "urbanizationRate": 70.4
+  },
+  {
+    "code": "VN-01",
+    "population": 489300,
+    "density": 54,
+    "genderRatio": { "male": 50.8, "female": 49.2 },
+    "ageGroups": { "under18": 32.4, "genZ": 15.8, "workingAge": 38.2, "above45": 13.6 },
+    "urbanizationRate": 18.4
+  },
+  {
+    "code": "VN-02",
+    "population": 779800,
+    "density": 123,
+    "genderRatio": { "male": 50.6, "female": 49.4 },
+    "ageGroups": { "under18": 30.2, "genZ": 15.4, "workingAge": 39.6, "above45": 14.8 },
+    "urbanizationRate": 24.5
+  },
+  {
+    "code": "VN-03",
+    "population": 899900,
+    "density": 113,
+    "genderRatio": { "male": 50.5, "female": 49.5 },
+    "ageGroups": { "under18": 31.6, "genZ": 15.2, "workingAge": 38.5, "above45": 14.7 },
+    "urbanizationRate": 16.2
+  },
+  {
+    "code": "VN-04",
+    "population": 547900,
+    "density": 82,
+    "genderRatio": { "male": 50.1, "female": 49.9 },
+    "ageGroups": { "under18": 26.8, "genZ": 13.9, "workingAge": 39.8, "above45": 19.5 },
+    "urbanizationRate": 23.8
+  },
+  {
+    "code": "VN-05",
+    "population": 1313300,
+    "density": 93,
+    "genderRatio": { "male": 50.7, "female": 49.3 },
+    "ageGroups": { "under18": 30.8, "genZ": 15.6, "workingAge": 39.1, "above45": 14.5 },
+    "urbanizationRate": 14.8
+  },
+  {
+    "code": "VN-06",
+    "population": 855500,
+    "density": 124,
+    "genderRatio": { "male": 50.3, "female": 49.7 },
+    "ageGroups": { "under18": 27.6, "genZ": 14.5, "workingAge": 40.2, "above45": 17.7 },
+    "urbanizationRate": 21.4
+  },
+  {
+    "code": "VN-07",
+    "population": 812200,
+    "density": 138,
+    "genderRatio": { "male": 50.2, "female": 49.8 },
+    "ageGroups": { "under18": 26.9, "genZ": 14.2, "workingAge": 40.6, "above45": 18.3 },
+    "urbanizationRate": 14.9
+  },
+  {
+    "code": "VN-09",
+    "population": 807300,
+    "density": 97,
+    "genderRatio": { "male": 50.4, "female": 49.6 },
+    "ageGroups": { "under18": 26.4, "genZ": 14.6, "workingAge": 40.8, "above45": 18.2 },
+    "urbanizationRate": 21.2
+  },
+  {
+    "code": "VN-13",
+    "population": 1381200,
+    "density": 223,
+    "genderRatio": { "male": 50.6, "female": 49.4 },
+    "ageGroups": { "under18": 23.4, "genZ": 15.8, "workingAge": 43.2, "above45": 17.6 },
+    "urbanizationRate": 64.8
+  },
+  {
+    "code": "VN-14",
+    "population": 880500,
+    "density": 192,
+    "genderRatio": { "male": 50.1, "female": 49.9 },
+    "ageGroups": { "under18": 25.8, "genZ": 14.4, "workingAge": 41.2, "above45": 18.6 },
+    "urbanizationRate": 17.6
+  },
+  {
+    "code": "VN-18",
+    "population": 1010700,
+    "density": 716,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 24.5, "genZ": 14.1, "workingAge": 40.6, "above45": 20.8 },
+    "urbanizationRate": 22.1
+  },
+  {
+    "code": "VN-20",
+    "population": 1882100,
+    "density": 1187,
+    "genderRatio": { "male": 48.9, "female": 51.1 },
+    "ageGroups": { "under18": 22.4, "genZ": 12.8, "workingAge": 39.2, "above45": 25.6 },
+    "urbanizationRate": 12.6
+  },
+  {
+    "code": "VN-21",
+    "population": 3739500,
+    "density": 336,
+    "genderRatio": { "male": 49.7, "female": 50.3 },
+    "ageGroups": { "under18": 25.2, "genZ": 14.3, "workingAge": 40.1, "above45": 20.4 },
+    "urbanizationRate": 19.2
+  },
+  {
+    "code": "VN-22",
+    "population": 3442000,
+    "density": 209,
+    "genderRatio": { "male": 49.9, "female": 50.1 },
+    "ageGroups": { "under18": 26.8, "genZ": 14.6, "workingAge": 39.8, "above45": 18.8 },
+    "urbanizationRate": 16.4
+  },
+  {
+    "code": "VN-23",
+    "population": 1329200,
+    "density": 222,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 26.1, "genZ": 13.7, "workingAge": 39.0, "above45": 21.2 },
+    "urbanizationRate": 21.5
+  },
+  {
+    "code": "VN-24",
+    "population": 918700,
+    "density": 115,
+    "genderRatio": { "male": 50.1, "female": 49.9 },
+    "ageGroups": { "under18": 25.6, "genZ": 14.2, "workingAge": 40.8, "above45": 19.4 },
+    "urbanizationRate": 21.0
+  },
+  {
+    "code": "VN-25",
+    "population": 654200,
+    "density": 139,
+    "genderRatio": { "male": 49.8, "female": 50.2 },
+    "ageGroups": { "under18": 26.2, "genZ": 14.1, "workingAge": 40.3, "above45": 19.4 },
+    "urbanizationRate": 32.4
+  },
+  {
+    "code": "VN-26",
+    "population": 1166500,
+    "density": 236,
+    "genderRatio": { "male": 49.4, "female": 50.6 },
+    "ageGroups": { "under18": 24.0, "genZ": 17.5, "workingAge": 40.4, "above45": 18.1 },
+    "urbanizationRate": 53.8
+  },
+  {
+    "code": "VN-27",
+    "population": 1525600,
+    "density": 144,
+    "genderRatio": { "male": 49.3, "female": 50.7 },
+    "ageGroups": { "under18": 23.6, "genZ": 14.5, "workingAge": 41.2, "above45": 20.7 },
+    "urbanizationRate": 26.8
+  },
+  {
+    "code": "VN-28",
+    "population": 591300,
+    "density": 61,
+    "genderRatio": { "male": 50.4, "female": 49.6 },
+    "ageGroups": { "under18": 31.2, "genZ": 15.8, "workingAge": 39.4, "above45": 13.6 },
+    "urbanizationRate": 33.4
+  },
+  {
+    "code": "VN-29",
+    "population": 1248100,
+    "density": 242,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 24.4, "genZ": 14.2, "workingAge": 40.6, "above45": 20.8 },
+    "urbanizationRate": 18.5
+  },
+  {
+    "code": "VN-30",
+    "population": 1613900,
+    "density": 104,
+    "genderRatio": { "male": 50.2, "female": 49.8 },
+    "ageGroups": { "under18": 30.4, "genZ": 15.9, "workingAge": 39.6, "above45": 14.1 },
+    "urbanizationRate": 29.6
+  },
+  {
+    "code": "VN-31",
+    "population": 1487300,
+    "density": 245,
+    "genderRatio": { "male": 49.4, "female": 50.6 },
+    "ageGroups": { "under18": 23.5, "genZ": 14.8, "workingAge": 41.0, "above45": 20.7 },
+    "urbanizationRate": 34.2
+  },
+  {
+    "code": "VN-32",
+    "population": 878100,
+    "density": 175,
+    "genderRatio": { "male": 50.1, "female": 49.9 },
+    "ageGroups": { "under18": 23.8, "genZ": 14.5, "workingAge": 41.4, "above45": 20.3 },
+    "urbanizationRate": 31.5
+  },
+  {
+    "code": "VN-33",
+    "population": 1931200,
+    "density": 148,
+    "genderRatio": { "male": 50.3, "female": 49.7 },
+    "ageGroups": { "under18": 28.6, "genZ": 15.8, "workingAge": 40.6, "above45": 15.0 },
+    "urbanizationRate": 25.4
+  },
+  {
+    "code": "VN-34",
+    "population": 1260600,
+    "density": 242,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 23.2, "genZ": 15.9, "workingAge": 42.6, "above45": 18.3 },
+    "urbanizationRate": 43.2
+  },
+  {
+    "code": "VN-35",
+    "population": 1343600,
+    "density": 137,
+    "genderRatio": { "male": 50.1, "female": 49.9 },
+    "ageGroups": { "under18": 26.0, "genZ": 16.2, "workingAge": 42.1, "above45": 15.7 },
+    "urbanizationRate": 40.4
+  },
+  {
+    "code": "VN-36",
+    "population": 601200,
+    "density": 179,
+    "genderRatio": { "male": 50.2, "female": 49.8 },
+    "ageGroups": { "under18": 26.8, "genZ": 15.6, "workingAge": 41.2, "above45": 16.4 },
+    "urbanizationRate": 36.2
+  },
+  {
+    "code": "VN-37",
+    "population": 1194900,
+    "density": 296,
+    "genderRatio": { "male": 49.9, "female": 50.1 },
+    "ageGroups": { "under18": 23.1, "genZ": 15.0, "workingAge": 43.4, "above45": 18.5 },
+    "urbanizationRate": 22.8
+  },
+  {
+    "code": "VN-39",
+    "population": 3310900,
+    "density": 565,
+    "genderRatio": { "male": 50.1, "female": 49.9 },
+    "ageGroups": { "under18": 23.4, "genZ": 18.4, "workingAge": 45.2, "above45": 13.0 },
+    "urbanizationRate": 44.6
+  },
+  {
+    "code": "VN-40",
+    "population": 1258500,
+    "density": 158,
+    "genderRatio": { "male": 50.3, "female": 49.7 },
+    "ageGroups": { "under18": 24.6, "genZ": 15.1, "workingAge": 42.5, "above45": 17.8 },
+    "urbanizationRate": 38.6
+  },
+  {
+    "code": "VN-41",
+    "population": 1744200,
+    "density": 388,
+    "genderRatio": { "male": 49.9, "female": 50.1 },
+    "ageGroups": { "under18": 21.8, "genZ": 15.2, "workingAge": 44.0, "above45": 19.0 },
+    "urbanizationRate": 19.4
+  },
+  {
+    "code": "VN-43",
+    "population": 1187500,
+    "density": 599,
+    "genderRatio": { "male": 50.2, "female": 49.8 },
+    "ageGroups": { "under18": 23.0, "genZ": 15.8, "workingAge": 43.8, "above45": 17.4 },
+    "urbanizationRate": 59.8
+  },
+  {
+    "code": "VN-44",
+    "population": 1906600,
+    "density": 539,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 22.4, "genZ": 14.4, "workingAge": 42.2, "above45": 21.0 },
+    "urbanizationRate": 38.4
+  },
+  {
+    "code": "VN-45",
+    "population": 1600200,
+    "density": 473,
+    "genderRatio": { "male": 49.8, "female": 50.2 },
+    "ageGroups": { "under18": 21.9, "genZ": 14.3, "workingAge": 42.5, "above45": 21.3 },
+    "urbanizationRate": 20.6
+  },
+  {
+    "code": "VN-46",
+    "population": 1790300,
+    "density": 712,
+    "genderRatio": { "male": 49.1, "female": 50.9 },
+    "ageGroups": { "under18": 21.2, "genZ": 14.0, "workingAge": 42.6, "above45": 22.2 },
+    "urbanizationRate": 15.8
+  },
+  {
+    "code": "VN-47",
+    "population": 1762400,
+    "density": 278,
+    "genderRatio": { "male": 50.4, "female": 49.6 },
+    "ageGroups": { "under18": 23.8, "genZ": 15.1, "workingAge": 42.8, "above45": 18.3 },
+    "urbanizationRate": 32.5
+  },
+  {
+    "code": "VN-49",
+    "population": 1028800,
+    "density": 674,
+    "genderRatio": { "male": 49.2, "female": 50.8 },
+    "ageGroups": { "under18": 20.6, "genZ": 14.2, "workingAge": 42.4, "above45": 22.8 },
+    "urbanizationRate": 19.8
+  },
+  {
+    "code": "VN-50",
+    "population": 1299400,
+    "density": 546,
+    "genderRatio": { "male": 49.0, "female": 51.0 },
+    "ageGroups": { "under18": 20.4, "genZ": 13.4, "workingAge": 42.0, "above45": 24.2 },
+    "urbanizationRate": 11.4
+  },
+  {
+    "code": "VN-51",
+    "population": 1021800,
+    "density": 427,
+    "genderRatio": { "male": 49.3, "female": 50.7 },
+    "ageGroups": { "under18": 22.0, "genZ": 14.6, "workingAge": 42.6, "above45": 20.8 },
+    "urbanizationRate": 20.4
+  },
+  {
+    "code": "VN-52",
+    "population": 1197800,
+    "density": 362,
+    "genderRatio": { "male": 49.9, "female": 50.1 },
+    "ageGroups": { "under18": 22.8, "genZ": 14.5, "workingAge": 42.4, "above45": 20.3 },
+    "urbanizationRate": 33.6
+  },
+  {
+    "code": "VN-53",
+    "population": 326500,
+    "density": 67,
+    "genderRatio": { "male": 50.4, "female": 49.6 },
+    "ageGroups": { "under18": 26.2, "genZ": 14.0, "workingAge": 40.8, "above45": 19.0 },
+    "urbanizationRate": 22.6
+  },
+  {
+    "code": "VN-54",
+    "population": 1922700,
+    "density": 494,
+    "genderRatio": { "male": 50.2, "female": 49.8 },
+    "ageGroups": { "under18": 25.4, "genZ": 16.4, "workingAge": 42.2, "above45": 16.0 },
+    "urbanizationRate": 23.5
+  },
+  {
+    "code": "VN-55",
+    "population": 925300,
+    "density": 347,
+    "genderRatio": { "male": 50.0, "female": 50.0 },
+    "ageGroups": { "under18": 22.6, "genZ": 14.8, "workingAge": 43.2, "above45": 19.4 },
+    "urbanizationRate": 28.4
+  },
+  {
+    "code": "VN-56",
+    "population": 1518800,
+    "density": 1846,
+    "genderRatio": { "male": 49.8, "female": 50.2 },
+    "ageGroups": { "under18": 25.8, "genZ": 18.6, "workingAge": 43.4, "above45": 12.2 },
+    "urbanizationRate": 53.2
+  },
+  {
+    "code": "VN-57",
+    "population": 2823600,
+    "density": 1048,
+    "genderRatio": { "male": 50.5, "female": 49.5 },
+    "ageGroups": { "under18": 20.8, "genZ": 22.6, "workingAge": 47.4, "above45": 9.2 },
+    "urbanizationRate": 84.3
+  },
+  {
+    "code": "VN-58",
+    "population": 1045500,
+    "density": 152,
+    "genderRatio": { "male": 50.6, "female": 49.4 },
+    "ageGroups": { "under18": 26.4, "genZ": 15.8, "workingAge": 42.8, "above45": 15.0 },
+    "urbanizationRate": 25.8
+  },
+  {
+    "code": "VN-59",
+    "population": 1207600,
+    "density": 229,
+    "genderRatio": { "male": 50.4, "female": 49.6 },
+    "ageGroups": { "under18": 23.0, "genZ": 14.9, "workingAge": 43.3, "above45": 18.8 },
+    "urbanizationRate": 24.2
+  },
+  {
+    "code": "VN-61",
+    "population": 1956800,
+    "density": 1173,
+    "genderRatio": { "male": 49.4, "female": 50.6 },
+    "ageGroups": { "under18": 23.8, "genZ": 14.2, "workingAge": 41.0, "above45": 21.0 },
+    "urbanizationRate": 32.8
+  },
+  {
+    "code": "VN-63",
+    "population": 883900,
+    "density": 1026,
+    "genderRatio": { "male": 49.5, "female": 50.5 },
+    "ageGroups": { "under18": 24.0, "genZ": 14.5, "workingAge": 40.9, "above45": 20.6 },
+    "urbanizationRate": 28.9
+  },
+  {
+    "code": "VN-66",
+    "population": 1302000,
+    "density": 1400,
+    "genderRatio": { "male": 49.7, "female": 50.3 },
+    "ageGroups": { "under18": 24.6, "genZ": 15.4, "workingAge": 41.6, "above45": 18.4 },
+    "urbanizationRate": 18.8
+  },
+  {
+    "code": "VN-67",
+    "population": 1888400,
+    "density": 1132,
+    "genderRatio": { "male": 49.2, "female": 50.8 },
+    "ageGroups": { "under18": 24.2, "genZ": 13.4, "workingAge": 39.4, "above45": 23.0 },
+    "urbanizationRate": 20.2
+  },
+  {
+    "code": "VN-68",
+    "population": 1530800,
+    "density": 433,
+    "genderRatio": { "male": 49.8, "female": 50.2 },
+    "ageGroups": { "under18": 25.0, "genZ": 14.6, "workingAge": 40.8, "above45": 19.6 },
+    "urbanizationRate": 19.6
+  },
+  {
+    "code": "VN-69",
+    "population": 1348500,
+    "density": 383,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 24.2, "genZ": 18.2, "workingAge": 41.8, "above45": 15.8 },
+    "urbanizationRate": 37.6
+  },
+  {
+    "code": "VN-70",
+    "population": 1209500,
+    "density": 979,
+    "genderRatio": { "male": 49.7, "female": 50.3 },
+    "ageGroups": { "under18": 25.4, "genZ": 15.6, "workingAge": 42.0, "above45": 17.0 },
+    "urbanizationRate": 27.4
+  },
+  {
+    "code": "VN-71",
+    "population": 645900,
+    "density": 68,
+    "genderRatio": { "male": 50.6, "female": 49.4 },
+    "ageGroups": { "under18": 32.0, "genZ": 15.6, "workingAge": 38.6, "above45": 13.8 },
+    "urbanizationRate": 15.2
+  },
+  {
+    "code": "VN-72",
+    "population": 681900,
+    "density": 105,
+    "genderRatio": { "male": 51.0, "female": 49.0 },
+    "ageGroups": { "under18": 29.8, "genZ": 15.6, "workingAge": 40.8, "above45": 13.8 },
+    "urbanizationRate": 16.8
+  },
+  {
+    "code": "VN-73",
+    "population": 728900,
+    "density": 450,
+    "genderRatio": { "male": 50.1, "female": 49.9 },
+    "ageGroups": { "under18": 21.8, "genZ": 14.4, "workingAge": 42.8, "above45": 21.0 },
+    "urbanizationRate": 29.5
+  },
+  {
+    "code": "001",
+    "population": 226300,
+    "density": 24571,
+    "genderRatio": { "male": 48.8, "female": 51.2 },
+    "ageGroups": { "under18": 19.6, "genZ": 17.4, "workingAge": 44.2, "above45": 18.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "002",
+    "population": 141200,
+    "density": 26692,
+    "genderRatio": { "male": 48.5, "female": 51.5 },
+    "ageGroups": { "under18": 18.2, "genZ": 16.5, "workingAge": 43.1, "above45": 22.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "003",
+    "population": 167800,
+    "density": 6883,
+    "genderRatio": { "male": 49.1, "female": 50.9 },
+    "ageGroups": { "under18": 20.8, "genZ": 17.6, "workingAge": 45.4, "above45": 16.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "004",
+    "population": 344200,
+    "density": 5754,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 23.4, "genZ": 16.8, "workingAge": 46.2, "above45": 13.6 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "005",
+    "population": 296400,
+    "density": 23942,
+    "genderRatio": { "male": 49.2, "female": 50.8 },
+    "ageGroups": { "under18": 18.5, "genZ": 25.8, "workingAge": 45.2, "above45": 10.5 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "006",
+    "population": 378100,
+    "density": 38000,
+    "genderRatio": { "male": 48.6, "female": 51.4 },
+    "ageGroups": { "under18": 19.0, "genZ": 22.4, "workingAge": 43.8, "above45": 14.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "007",
+    "population": 304200,
+    "density": 29649,
+    "genderRatio": { "male": 48.9, "female": 51.1 },
+    "ageGroups": { "under18": 18.8, "genZ": 23.2, "workingAge": 43.4, "above45": 14.6 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "008",
+    "population": 546800,
+    "density": 13605,
+    "genderRatio": { "male": 49.5, "female": 50.5 },
+    "ageGroups": { "under18": 22.6, "genZ": 19.2, "workingAge": 47.0, "above45": 11.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "009",
+    "population": 294800,
+    "density": 32467,
+    "genderRatio": { "male": 49.0, "female": 51.0 },
+    "ageGroups": { "under18": 19.4, "genZ": 23.6, "workingAge": 45.8, "above45": 11.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "019",
+    "population": 284600,
+    "density": 8847,
+    "genderRatio": { "male": 49.7, "female": 50.3 },
+    "ageGroups": { "under18": 21.8, "genZ": 22.4, "workingAge": 46.8, "above45": 9.0 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "021",
+    "population": 356200,
+    "density": 7854,
+    "genderRatio": { "male": 49.8, "female": 50.2 },
+    "ageGroups": { "under18": 22.2, "genZ": 21.6, "workingAge": 45.6, "above45": 10.6 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "268",
+    "population": 421500,
+    "density": 8491,
+    "genderRatio": { "male": 49.5, "female": 50.5 },
+    "ageGroups": { "under18": 23.0, "genZ": 20.4, "workingAge": 46.4, "above45": 10.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "760",
+    "population": 144500,
+    "density": 18718,
+    "genderRatio": { "male": 47.9, "female": 52.1 },
+    "ageGroups": { "under18": 16.4, "genZ": 20.8, "workingAge": 47.6, "above45": 15.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "764",
+    "population": 684200,
+    "density": 34678,
+    "genderRatio": { "male": 48.6, "female": 51.4 },
+    "ageGroups": { "under18": 19.6, "genZ": 22.8, "workingAge": 46.8, "above45": 10.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "765",
+    "population": 502400,
+    "density": 24177,
+    "genderRatio": { "male": 48.4, "female": 51.6 },
+    "ageGroups": { "under18": 18.2, "genZ": 24.4, "workingAge": 46.2, "above45": 11.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "766",
+    "population": 478600,
+    "density": 21337,
+    "genderRatio": { "male": 48.8, "female": 51.2 },
+    "ageGroups": { "under18": 18.8, "genZ": 21.6, "workingAge": 47.4, "above45": 12.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "767",
+    "population": 491200,
+    "density": 30758,
+    "genderRatio": { "male": 49.0, "female": 51.0 },
+    "ageGroups": { "under18": 20.2, "genZ": 21.2, "workingAge": 47.6, "above45": 11.0 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "768",
+    "population": 165800,
+    "density": 34115,
+    "genderRatio": { "male": 48.2, "female": 51.8 },
+    "ageGroups": { "under18": 17.6, "genZ": 19.8, "workingAge": 46.4, "above45": 16.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "769",
+    "population": 1246500,
+    "density": 5892,
+    "genderRatio": { "male": 49.4, "female": 50.6 },
+    "ageGroups": { "under18": 19.2, "genZ": 25.4, "workingAge": 46.8, "above45": 8.6 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "770",
+    "population": 192400,
+    "density": 39106,
+    "genderRatio": { "male": 48.0, "female": 52.0 },
+    "ageGroups": { "under18": 16.8, "genZ": 20.6, "workingAge": 46.4, "above45": 16.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "771",
+    "population": 236800,
+    "density": 41399,
+    "genderRatio": { "male": 48.5, "female": 51.5 },
+    "ageGroups": { "under18": 17.4, "genZ": 22.2, "workingAge": 46.0, "above45": 14.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "774",
+    "population": 161200,
+    "density": 37752,
+    "genderRatio": { "male": 48.3, "female": 51.7 },
+    "ageGroups": { "under18": 16.6, "genZ": 19.4, "workingAge": 45.2, "above45": 18.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "778",
+    "population": 368400,
+    "density": 10322,
+    "genderRatio": { "male": 48.9, "female": 51.1 },
+    "ageGroups": { "under18": 20.6, "genZ": 21.8, "workingAge": 48.2, "above45": 9.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "490",
+    "population": 201800,
+    "density": 2667,
+    "genderRatio": { "male": 49.8, "female": 50.2 },
+    "ageGroups": { "under18": 20.4, "genZ": 25.2, "workingAge": 44.0, "above45": 10.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "491",
+    "population": 188400,
+    "density": 20128,
+    "genderRatio": { "male": 49.0, "female": 51.0 },
+    "ageGroups": { "under18": 20.2, "genZ": 19.4, "workingAge": 44.8, "above45": 15.6 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "492",
+    "population": 205600,
+    "density": 8832,
+    "genderRatio": { "male": 48.8, "female": 51.2 },
+    "ageGroups": { "under18": 19.6, "genZ": 21.0, "workingAge": 45.4, "above45": 14.0 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "493",
+    "population": 162400,
+    "density": 2566,
+    "genderRatio": { "male": 49.4, "female": 50.6 },
+    "ageGroups": { "under18": 21.2, "genZ": 19.8, "workingAge": 45.6, "above45": 13.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "494",
+    "population": 98600,
+    "density": 2452,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 21.4, "genZ": 22.0, "workingAge": 44.8, "above45": 11.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "495",
+    "population": 166200,
+    "density": 4706,
+    "genderRatio": { "male": 49.5, "female": 50.5 },
+    "ageGroups": { "under18": 22.0, "genZ": 18.8, "workingAge": 46.2, "above45": 13.0 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00157",
+    "population": 32400,
+    "density": 24923,
+    "genderRatio": { "male": 49.1, "female": 50.9 },
+    "ageGroups": { "under18": 18.6, "genZ": 24.4, "workingAge": 45.2, "above45": 11.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00160",
+    "population": 23800,
+    "density": 35000,
+    "genderRatio": { "male": 48.9, "female": 51.1 },
+    "ageGroups": { "under18": 18.2, "genZ": 25.0, "workingAge": 44.0, "above45": 12.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00163",
+    "population": 42100,
+    "density": 20842,
+    "genderRatio": { "male": 49.4, "female": 50.6 },
+    "ageGroups": { "under18": 17.8, "genZ": 29.6, "workingAge": 43.8, "above45": 8.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00166",
+    "population": 28600,
+    "density": 21667,
+    "genderRatio": { "male": 49.0, "female": 51.0 },
+    "ageGroups": { "under18": 18.4, "genZ": 26.8, "workingAge": 44.6, "above45": 10.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00167",
+    "population": 34900,
+    "density": 23581,
+    "genderRatio": { "male": 49.6, "female": 50.4 },
+    "ageGroups": { "under18": 16.5, "genZ": 29.4, "workingAge": 46.8, "above45": 7.3 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00169",
+    "population": 36200,
+    "density": 43614,
+    "genderRatio": { "male": 48.8, "female": 51.2 },
+    "ageGroups": { "under18": 18.8, "genZ": 24.6, "workingAge": 45.0, "above45": 11.6 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00172",
+    "population": 41600,
+    "density": 20194,
+    "genderRatio": { "male": 49.2, "female": 50.8 },
+    "ageGroups": { "under18": 19.8, "genZ": 22.8, "workingAge": 47.4, "above45": 10.0 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "00175",
+    "population": 56800,
+    "density": 23090,
+    "genderRatio": { "male": 49.3, "female": 50.7 },
+    "ageGroups": { "under18": 19.6, "genZ": 23.4, "workingAge": 47.6, "above45": 9.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "26734",
+    "population": 22400,
+    "density": 35556,
+    "genderRatio": { "male": 47.8, "female": 52.2 },
+    "ageGroups": { "under18": 16.8, "genZ": 21.0, "workingAge": 46.8, "above45": 15.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "26737",
+    "population": 17600,
+    "density": 17600,
+    "genderRatio": { "male": 48.2, "female": 51.8 },
+    "ageGroups": { "under18": 16.2, "genZ": 21.4, "workingAge": 48.0, "above45": 14.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "26740",
+    "population": 12400,
+    "density": 5000,
+    "genderRatio": { "male": 48.5, "female": 51.5 },
+    "ageGroups": { "under18": 14.8, "genZ": 22.6, "workingAge": 49.4, "above45": 13.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "26743",
+    "population": 13800,
+    "density": 14839,
+    "genderRatio": { "male": 48.1, "female": 51.9 },
+    "ageGroups": { "under18": 15.6, "genZ": 21.8, "workingAge": 48.2, "above45": 14.4 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "27466",
+    "population": 45200,
+    "density": 5567,
+    "genderRatio": { "male": 49.2, "female": 50.8 },
+    "ageGroups": { "under18": 20.4, "genZ": 23.0, "workingAge": 47.8, "above45": 8.8 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "27475",
+    "population": 41800,
+    "density": 9676,
+    "genderRatio": { "male": 48.6, "female": 51.4 },
+    "ageGroups": { "under18": 21.0, "genZ": 21.2, "workingAge": 48.6, "above45": 9.2 },
+    "urbanizationRate": 100.0
+  },
+  {
+    "code": "27478",
+    "population": 46500,
+    "density": 10131,
+    "genderRatio": { "male": 48.8, "female": 51.2 },
+    "ageGroups": { "under18": 20.8, "genZ": 21.6, "workingAge": 48.4, "above45": 9.2 },
+    "urbanizationRate": 100.0
   }
 ]

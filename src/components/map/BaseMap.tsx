@@ -2,7 +2,12 @@
 
 import React, { useRef } from 'react';
 import Map, { MapRef } from 'react-map-gl/maplibre';
+import { setWorkerUrl } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+
+if (typeof window !== 'undefined') {
+  setWorkerUrl('/worker/maplibre-gl-worker.mjs');
+}
 import { useMapStore } from '@/store/useMapStore';
 import { useTranslation } from '@/lib/i18n/useTranslation';
 import { LayerControl } from './LayerControl';
