@@ -34,6 +34,10 @@ export interface DemographicMetric {
 }
 
 // 3. LAYER 3: Purchasing Power & E-Commerce Readiness (Owned by Member 4)
+export type EcommerceMetricKey = 'ebiScore' | 'avgMonthlyIncome' | 'totalRetailSales';
+
+export type ProductCategoryKey = 'F&B' | 'Fashion' | 'Tech' | 'FMCG';
+
 export interface HotCategory {
   category: string;              // Category name (Fashion, FMCG, Tech, Mom & Baby, etc.)
   marketShare: number;           // Market share percentage (%)
@@ -42,11 +46,23 @@ export interface HotCategory {
 
 export interface EcommerceMetric {
   code: string;                  // Foreign key referencing RegionProperties.code
-  ebiScore: number;              // Vietnam E-business Index score (scale 0-100)
-  avgMonthlyIncome: number;      // Average monthly income per capita (VND/month)
+  ebiScore: number | null;       // Vietnam E-business Index score (scale 0-100), null if unavailable
+  avgMonthlyIncome: number | null; // Average monthly income per capita (VND/month), null if unavailable
+  totalRetailSales?: number | null; // Total retail sales of goods and services (Billion VND), null if unavailable
   monthlyOnlineOrders: number;   // Average monthly orders per consumer
   avgOrderValue: number;         // Average Order Value (AOV in VND)
   topCategories: HotCategory[];  // Top selling categories
+}
+
+export type CompareSelection = [string | null, string | null];
+
+export interface RegionComparisonDelta {
+  metric: EcommerceMetricKey;
+  valueA: number | null;
+  valueB: number | null;
+  absDiff: number | null;
+  pctDiff: number | null;
+  leader: 'A' | 'B' | 'tie' | 'na';
 }
 
 // 4. LAYER 4: Logistics Infrastructure & Retail POIs (Owned by Member 5)
@@ -85,9 +101,14 @@ export interface SiteAnalysisResult {
 export interface FilterCriteria {
   minPopulation?: number;
   minIncome?: number;
+  maxIncome?: number;
   minEbi?: number;
+  maxEbi?: number;
   selectedCategory?: string;
+  selectedCategories?: string[];
 }
+
+export type MarketFilterCriteria = FilterCriteria;
 
 // 7. Layer Visibility State (Managed by Member 1 / Tech Lead)
 export interface LayerVisibilityState {

@@ -5,7 +5,9 @@ import {
   RegionProperties,
   DemographicMetric,
   EcommerceMetric,
-  SiteAnalysisResult
+  EcommerceMetricKey,
+  CompareSelection,
+  SiteAnalysisResult 
 } from '@/types/market';
 import { Language } from '@/lib/i18n/translations';
 
@@ -54,8 +56,22 @@ interface MapStore {
   setCompareRegion: (region: RegionProperties | null) => void;
   isCompareMode: boolean;
   setCompareMode: (enabled: boolean) => void;
+  compareRegions: CompareSelection;
+  compareSlotRegions: [RegionProperties | null, RegionProperties | null];
+  activeCompareSlot: 0 | 1;
+  setActiveCompareSlot: (slot: 0 | 1) => void;
+  assignCompareRegion: (region: RegionProperties) => { ok: boolean; reason?: 'duplicate' };
+  setCompareSlotRegion: (slot: 0 | 1, region: RegionProperties | null) => { ok: boolean; reason?: 'duplicate' };
+  swapCompareRegions: () => void;
+  clearCompareSlot: (slot: 0 | 1) => void;
+  compareFeedback: string | null;
+  clearCompareFeedback: () => void;
 
-  // Multi-criteria Market Filters (Member 4)
+  // Layer 3 Thematic Metric & Multi-criteria Market Filters (Member 4)
+  activeEcommerceMetric: EcommerceMetricKey;
+  setActiveEcommerceMetric: (metric: EcommerceMetricKey) => void;
+  matchedRegionCodes: string[] | null;
+  setMatchedRegionCodes: (codes: string[] | null) => void;
   filters: FilterCriteria;
   setFilters: (filters: Partial<FilterCriteria>) => void;
   resetFilters: () => void;
@@ -178,12 +194,92 @@ export const useMapStore = create<MapStore>((set) => ({
   compareRegion: null,
   setCompareRegion: (region) => set({ compareRegion: region }),
   isCompareMode: false,
-  setCompareMode: (enabled) => set({ isCompareMode: enabled }),
+  setCompareMode: (enabled) =>
+    set({
+      isCompareMode: enabled,
+      compareFeedback: null,
+    }),
+  compareRegions: [null, null],
+  compareSlotRegions: [null, null],
+  activeCompareSlot: 0,
+  setActiveCompareSlot: (slot) => set({ activeCompareSlot: slot, compareFeedback: null }),
+  assignCompareRegion: (region) => {
+    let result: { ok: boolean; reason?: 'duplicate' } = { ok: true };
+    set((state) => {
+      const [codeA, codeB] = state.compareRegions;
+      const [slotA, slotB] = state.compareSlotRegions;
+      const targetSlot = !codeA ? 0 : !codeB ? 1 : state.activeCompareSlot;
+      const otherCode = targetSlot === 0 ? codeB : codeA;
 
+      if (otherCode && otherCode === region.code) {
+        result = { ok: false, reason: 'duplicate' };
+        return { compareFeedback: 'duplicate' };
+      }
+
+      const nextCodes: CompareSelection = targetSlot === 0 ? [region.code, codeB] : [codeA, region.code];
+      const nextSlots: [RegionProperties | null, RegionProperties | null] =
+        targetSlot === 0 ? [region, slotB] : [slotA, region];
+      const nextActiveSlot: 0 | 1 = targetSlot === 0 && !codeB ? 1 : targetSlot === 0 ? 1 : 0;
+
+      return {
+        compareRegions: nextCodes,
+        compareSlotRegions: nextSlots,
+        activeCompareSlot: nextActiveSlot,
+        compareFeedback: null,
+      };
+    });
+    return result;
+  },
+  setCompareSlotRegion: (slot, region) => {
+    let result: { ok: boolean; reason?: 'duplicate' } = { ok: true };
+    set((state) => {
+      const [codeA, codeB] = state.compareRegions;
+      const [slotA, slotB] = state.compareSlotRegions;
+      const otherCode = slot === 0 ? codeB : codeA;
+
+      if (region && otherCode && otherCode === region.code) {
+        result = { ok: false, reason: 'duplicate' };
+        return { compareFeedback: 'duplicate' };
+      }
+
+      const nextCodes: CompareSelection =
+        slot === 0 ? [region?.code ?? null, codeB] : [codeA, region?.code ?? null];
+      const nextSlots: [RegionProperties | null, RegionProperties | null] =
+        slot === 0 ? [region, slotB] : [slotA, region];
+
+      return {
+        compareRegions: nextCodes,
+        compareSlotRegions: nextSlots,
+        compareFeedback: null,
+      };
+    });
+    return result;
+  },
+  swapCompareRegions: () =>
+    set((state) => ({
+      compareRegions: [state.compareRegions[1], state.compareRegions[0]],
+      compareSlotRegions: [state.compareSlotRegions[1], state.compareSlotRegions[0]],
+      compareFeedback: null,
+    })),
+  clearCompareSlot: (slot) =>
+    set((state) => ({
+      compareRegions: slot === 0 ? [null, state.compareRegions[1]] : [state.compareRegions[0], null],
+      compareSlotRegions:
+        slot === 0 ? [null, state.compareSlotRegions[1]] : [state.compareSlotRegions[0], null],
+      activeCompareSlot: slot,
+      compareFeedback: null,
+    })),
+  compareFeedback: null,
+  clearCompareFeedback: () => set({ compareFeedback: null }),
+
+  activeEcommerceMetric: 'ebiScore',
+  setActiveEcommerceMetric: (metric) => set({ activeEcommerceMetric: metric }),
+  matchedRegionCodes: null,
+  setMatchedRegionCodes: (codes) => set({ matchedRegionCodes: codes }),
   filters: {},
   setFilters: (newFilters) =>
     set((state) => ({ filters: { ...state.filters, ...newFilters } })),
-  resetFilters: () => set({ filters: {} }),
+  resetFilters: () => set({ filters: {}, matchedRegionCodes: null }),
 
   isSiteSelectionActive: false,
   setSiteSelectionActive: (active) => set({ isSiteSelectionActive: active }),
