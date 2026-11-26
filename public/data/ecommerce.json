@@ -1,41 +1,3279 @@
 [
   {
     "code": "VN-HN",
-    "ebiScore": 85.8,
-    "avgMonthlyIncome": 7010000,
-    "monthlyOnlineOrders": 4.2,
-    "avgOrderValue": 285000,
+    "ebiScore": 87.5,
+    "avgMonthlyIncome": 8374000,
+    "monthlyOnlineOrders": 4.9,
+    "avgOrderValue": 310000,
     "topCategories": [
-      { "category": "Thời trang & Phụ kiện", "marketShare": 32, "growthRate": 18.5 },
-      { "category": "Công nghệ & Điện máy", "marketShare": 26, "growthRate": 12.0 },
-      { "category": "FMCG & Mỹ phẩm", "marketShare": 24, "growthRate": 25.4 },
-      { "category": "Mẹ & Bé", "marketShare": 18, "growthRate": 14.2 }
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 29.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 36.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 35.2
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 19,
+        "growthRate": 22.4
+      }
     ]
   },
   {
     "code": "VN-SG",
-    "ebiScore": 89.2,
-    "avgMonthlyIncome": 7520000,
-    "monthlyOnlineOrders": 5.1,
-    "avgOrderValue": 310000,
+    "ebiScore": 91.1,
+    "avgMonthlyIncome": 7898000,
+    "monthlyOnlineOrders": 5.4,
+    "avgOrderValue": 325000,
     "topCategories": [
-      { "category": "Thời trang & Phụ kiện", "marketShare": 35, "growthRate": 20.1 },
-      { "category": "FMCG & Mỹ phẩm", "marketShare": 28, "growthRate": 28.0 },
-      { "category": "Công nghệ & Điện tử", "marketShare": 22, "growthRate": 15.5 },
-      { "category": "Đồ gia dụng", "marketShare": 15, "growthRate": 11.8 }
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 33,
+        "growthRate": 31.4
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 29,
+        "growthRate": 38.2
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 21,
+        "growthRate": 24.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 36.8
+      }
     ]
   },
   {
     "code": "VN-DN",
-    "ebiScore": 64.5,
-    "avgMonthlyIncome": 5850000,
-    "monthlyOnlineOrders": 3.0,
-    "avgOrderValue": 220000,
+    "ebiScore": 22.3,
+    "avgMonthlyIncome": 6853000,
+    "monthlyOnlineOrders": 3.5,
+    "avgOrderValue": 271000,
     "topCategories": [
-      { "category": "Thời trang & Du lịch", "marketShare": 38, "growthRate": 22.0 },
-      { "category": "Đặc sản & Thực phẩm", "marketShare": 25, "growthRate": 19.3 },
-      { "category": "Mỹ phẩm chăm sóc cá nhân", "marketShare": 21, "growthRate": 16.5 },
-      { "category": "Thiết bị điện tử", "marketShare": 16, "growthRate": 9.4 }
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 35.9
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 21,
+        "growthRate": 32.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 20.8
+      }
+    ]
+  },
+  {
+    "code": "VN-HP",
+    "ebiScore": 17.9,
+    "avgMonthlyIncome": 7467000,
+    "monthlyOnlineOrders": 3.2,
+    "avgOrderValue": 273000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 34.9
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 29.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 21,
+        "growthRate": 31.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 20.2
+      }
+    ]
+  },
+  {
+    "code": "VN-CT",
+    "ebiScore": 13.0,
+    "avgMonthlyIncome": 6579000,
+    "monthlyOnlineOrders": 2.8,
+    "avgOrderValue": 241000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 27.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 31.1
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 32.2
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 29.7
+      }
+    ]
+  },
+  {
+    "code": "VN-01",
+    "ebiScore": 4.7,
+    "avgMonthlyIncome": 2920000,
+    "monthlyOnlineOrders": 1.8,
+    "avgOrderValue": 178000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 25.9
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.4
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.1
+      }
+    ]
+  },
+  {
+    "code": "VN-02",
+    "ebiScore": 8.1,
+    "avgMonthlyIncome": 3781000,
+    "monthlyOnlineOrders": 2.1,
+    "avgOrderValue": 195000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 27.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 24.3
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 24.4
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 23.3
+      }
+    ]
+  },
+  {
+    "code": "VN-03",
+    "ebiScore": 4.4,
+    "avgMonthlyIncome": 2552000,
+    "monthlyOnlineOrders": 1.6,
+    "avgOrderValue": 172000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 25.8
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.0
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.3
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.0
+      }
+    ]
+  },
+  {
+    "code": "VN-04",
+    "ebiScore": 4.7,
+    "avgMonthlyIncome": 2691000,
+    "monthlyOnlineOrders": 1.7,
+    "avgOrderValue": 175000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 25.9
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.4
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.1
+      }
+    ]
+  },
+  {
+    "code": "VN-05",
+    "ebiScore": 4.4,
+    "avgMonthlyIncome": 3052000,
+    "monthlyOnlineOrders": 1.7,
+    "avgOrderValue": 179000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 25.8
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.0
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.3
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.0
+      }
+    ]
+  },
+  {
+    "code": "VN-06",
+    "ebiScore": 5.8,
+    "avgMonthlyIncome": 3900000,
+    "monthlyOnlineOrders": 2.0,
+    "avgOrderValue": 193000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 26.3
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.7
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.5
+      }
+    ]
+  },
+  {
+    "code": "VN-07",
+    "ebiScore": 5.9,
+    "avgMonthlyIncome": 4146000,
+    "monthlyOnlineOrders": 2.0,
+    "avgOrderValue": 197000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 26.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.6
+      }
+    ]
+  },
+  {
+    "code": "VN-09",
+    "ebiScore": 6.9,
+    "avgMonthlyIncome": 3582000,
+    "monthlyOnlineOrders": 2.0,
+    "avgOrderValue": 190000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 26.8
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 24.1
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.9
+      }
+    ]
+  },
+  {
+    "code": "VN-13",
+    "ebiScore": 14.5,
+    "avgMonthlyIncome": 6917000,
+    "monthlyOnlineOrders": 2.9,
+    "avgOrderValue": 260000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 34.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 29.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 21,
+        "growthRate": 30.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 19.7
+      }
+    ]
+  },
+  {
+    "code": "VN-14",
+    "ebiScore": 9.9,
+    "avgMonthlyIncome": 4760000,
+    "monthlyOnlineOrders": 2.3,
+    "avgOrderValue": 211000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 28.0
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 25.0
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 25.0
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 24.0
+      }
+    ]
+  },
+  {
+    "code": "VN-18",
+    "ebiScore": 16.6,
+    "avgMonthlyIncome": 6776000,
+    "monthlyOnlineOrders": 3.0,
+    "avgOrderValue": 249000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 29.0
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 32.1
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 33.1
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 30.8
+      }
+    ]
+  },
+  {
+    "code": "VN-20",
+    "ebiScore": 12.2,
+    "avgMonthlyIncome": 6534000,
+    "monthlyOnlineOrders": 2.7,
+    "avgOrderValue": 239000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 27.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.9
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 32.0
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 29.4
+      }
+    ]
+  },
+  {
+    "code": "VN-21",
+    "ebiScore": 12.2,
+    "avgMonthlyIncome": 5429000,
+    "monthlyOnlineOrders": 2.6,
+    "avgOrderValue": 224000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 27.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.9
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 32.0
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 29.4
+      }
+    ]
+  },
+  {
+    "code": "VN-22",
+    "ebiScore": 11.1,
+    "avgMonthlyIncome": 4790000,
+    "monthlyOnlineOrders": 2.4,
+    "avgOrderValue": 213000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 27.3
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.6
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 31.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 29.1
+      }
+    ]
+  },
+  {
+    "code": "VN-23",
+    "ebiScore": 8.9,
+    "avgMonthlyIncome": 4457000,
+    "monthlyOnlineOrders": 2.2,
+    "avgOrderValue": 205000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 26.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.0
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 31.2
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 28.3
+      }
+    ]
+  },
+  {
+    "code": "VN-24",
+    "ebiScore": 10.5,
+    "avgMonthlyIncome": 4666000,
+    "monthlyOnlineOrders": 2.4,
+    "avgOrderValue": 211000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 30.7
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 29.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 27.0
+      }
+    ]
+  },
+  {
+    "code": "VN-25",
+    "ebiScore": 9.6,
+    "avgMonthlyIncome": 4274000,
+    "monthlyOnlineOrders": 2.2,
+    "avgOrderValue": 204000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 26.2
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 26.8
+      }
+    ]
+  },
+  {
+    "code": "VN-26",
+    "ebiScore": 11.1,
+    "avgMonthlyIncome": 5696000,
+    "monthlyOnlineOrders": 2.5,
+    "avgOrderValue": 238000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 33.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 30.2
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 19.2
+      }
+    ]
+  },
+  {
+    "code": "VN-27",
+    "ebiScore": 11.5,
+    "avgMonthlyIncome": 4545000,
+    "monthlyOnlineOrders": 2.4,
+    "avgOrderValue": 211000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 26.7
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 31.0
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 29.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 27.3
+      }
+    ]
+  },
+  {
+    "code": "VN-28",
+    "ebiScore": 6.9,
+    "avgMonthlyIncome": 4243000,
+    "monthlyOnlineOrders": 2.0,
+    "avgOrderValue": 199000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 25.4
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 29.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 28.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 26.2
+      }
+    ]
+  },
+  {
+    "code": "VN-29",
+    "ebiScore": 8.9,
+    "avgMonthlyIncome": 4517000,
+    "monthlyOnlineOrders": 2.2,
+    "avgOrderValue": 206000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 26.0
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 30.3
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 28.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 26.6
+      }
+    ]
+  },
+  {
+    "code": "VN-30",
+    "ebiScore": 10.3,
+    "avgMonthlyIncome": 4065000,
+    "monthlyOnlineOrders": 2.2,
+    "avgOrderValue": 202000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 30.7
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 29.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 27.0
+      }
+    ]
+  },
+  {
+    "code": "VN-31",
+    "ebiScore": 12.3,
+    "avgMonthlyIncome": 5049000,
+    "monthlyOnlineOrders": 2.5,
+    "avgOrderValue": 231000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 33.7
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 19.3
+      }
+    ]
+  },
+  {
+    "code": "VN-32",
+    "ebiScore": 7.3,
+    "avgMonthlyIncome": 4316000,
+    "monthlyOnlineOrders": 2.2,
+    "avgOrderValue": 201000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 25.5
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 29.9
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 28.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 26.3
+      }
+    ]
+  },
+  {
+    "code": "VN-33",
+    "ebiScore": 10.7,
+    "avgMonthlyIncome": 4469000,
+    "monthlyOnlineOrders": 2.3,
+    "avgOrderValue": 208000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 26.5
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 30.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 29.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 27.1
+      }
+    ]
+  },
+  {
+    "code": "VN-34",
+    "ebiScore": 13.3,
+    "avgMonthlyIncome": 5682000,
+    "monthlyOnlineOrders": 2.7,
+    "avgOrderValue": 241000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 33.9
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 30.7
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 19.5
+      }
+    ]
+  },
+  {
+    "code": "VN-35",
+    "ebiScore": 13.8,
+    "avgMonthlyIncome": 5757000,
+    "monthlyOnlineOrders": 2.8,
+    "avgOrderValue": 231000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 27.4
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 31.6
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 30.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 27.8
+      }
+    ]
+  },
+  {
+    "code": "VN-36",
+    "ebiScore": 8.5,
+    "avgMonthlyIncome": 4463000,
+    "monthlyOnlineOrders": 2.3,
+    "avgOrderValue": 205000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 25.9
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 30.2
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 28.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 26.5
+      }
+    ]
+  },
+  {
+    "code": "VN-37",
+    "ebiScore": 12.6,
+    "avgMonthlyIncome": 5617000,
+    "monthlyOnlineOrders": 2.7,
+    "avgOrderValue": 239000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 32.9
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 36.8
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 35.0
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 40.0
+      }
+    ]
+  },
+  {
+    "code": "VN-39",
+    "ebiScore": 17.4,
+    "avgMonthlyIncome": 7676000,
+    "monthlyOnlineOrders": 3.3,
+    "avgOrderValue": 275000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 34.6
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 38.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 36.4
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 18,
+        "growthRate": 41.6
+      }
+    ]
+  },
+  {
+    "code": "VN-40",
+    "ebiScore": 9.3,
+    "avgMonthlyIncome": 5013000,
+    "monthlyOnlineOrders": 2.4,
+    "avgOrderValue": 226000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 33.0
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 29.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 18.9
+      }
+    ]
+  },
+  {
+    "code": "VN-41",
+    "ebiScore": 16.2,
+    "avgMonthlyIncome": 5274000,
+    "monthlyOnlineOrders": 2.7,
+    "avgOrderValue": 240000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 34.2
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 37.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 36.0
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 41.2
+      }
+    ]
+  },
+  {
+    "code": "VN-43",
+    "ebiScore": 16.2,
+    "avgMonthlyIncome": 6154000,
+    "monthlyOnlineOrders": 2.9,
+    "avgOrderValue": 252000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 34.6
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 29.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 31.2
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 19.9
+      }
+    ]
+  },
+  {
+    "code": "VN-44",
+    "ebiScore": 11.6,
+    "avgMonthlyIncome": 4548000,
+    "monthlyOnlineOrders": 2.4,
+    "avgOrderValue": 211000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 27.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.7
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 31.9
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 29.2
+      }
+    ]
+  },
+  {
+    "code": "VN-45",
+    "ebiScore": 11.7,
+    "avgMonthlyIncome": 5648000,
+    "monthlyOnlineOrders": 2.5,
+    "avgOrderValue": 226000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 27.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 31.9
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 29.2
+      }
+    ]
+  },
+  {
+    "code": "VN-46",
+    "ebiScore": 10.2,
+    "avgMonthlyIncome": 5529000,
+    "monthlyOnlineOrders": 2.5,
+    "avgOrderValue": 222000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 27.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.4
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 31.6
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 28.8
+      }
+    ]
+  },
+  {
+    "code": "VN-47",
+    "ebiScore": 15.1,
+    "avgMonthlyIncome": 5686000,
+    "monthlyOnlineOrders": 2.8,
+    "avgOrderValue": 232000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 28.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 31.7
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 32.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 30.3
+      }
+    ]
+  },
+  {
+    "code": "VN-49",
+    "ebiScore": 5.7,
+    "avgMonthlyIncome": 4433000,
+    "monthlyOnlineOrders": 2.1,
+    "avgOrderValue": 200000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 25.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 29.1
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 30.4
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 27.3
+      }
+    ]
+  },
+  {
+    "code": "VN-50",
+    "ebiScore": 6.5,
+    "avgMonthlyIncome": 5034000,
+    "monthlyOnlineOrders": 2.2,
+    "avgOrderValue": 210000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 25.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 29.3
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 30.6
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 27.6
+      }
+    ]
+  },
+  {
+    "code": "VN-51",
+    "ebiScore": 5.1,
+    "avgMonthlyIncome": 5215000,
+    "monthlyOnlineOrders": 2.0,
+    "avgOrderValue": 210000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 25.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 30.3
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 27.1
+      }
+    ]
+  },
+  {
+    "code": "VN-52",
+    "ebiScore": 7.0,
+    "avgMonthlyIncome": 4653000,
+    "monthlyOnlineOrders": 2.1,
+    "avgOrderValue": 205000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 26.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 29.5
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 30.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 27.7
+      }
+    ]
+  },
+  {
+    "code": "VN-53",
+    "ebiScore": 6.1,
+    "avgMonthlyIncome": 3276000,
+    "monthlyOnlineOrders": 1.9,
+    "avgOrderValue": 185000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 26.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.6
+      }
+    ]
+  },
+  {
+    "code": "VN-54",
+    "ebiScore": 12.9,
+    "avgMonthlyIncome": 5559000,
+    "monthlyOnlineOrders": 2.7,
+    "avgOrderValue": 239000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 33.0
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 36.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 35.1
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 40.1
+      }
+    ]
+  },
+  {
+    "code": "VN-55",
+    "ebiScore": 7.4,
+    "avgMonthlyIncome": 5883000,
+    "monthlyOnlineOrders": 2.3,
+    "avgOrderValue": 223000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 26.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 29.6
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 30.9
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 27.9
+      }
+    ]
+  },
+  {
+    "code": "VN-56",
+    "ebiScore": 17.9,
+    "avgMonthlyIncome": 6606000,
+    "monthlyOnlineOrders": 3.1,
+    "avgOrderValue": 261000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 34.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 38.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 36.5
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 41.7
+      }
+    ]
+  },
+  {
+    "code": "VN-57",
+    "ebiScore": 23.8,
+    "avgMonthlyIncome": 9394000,
+    "monthlyOnlineOrders": 3.9,
+    "avgOrderValue": 308000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 36.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 38.2
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 18,
+        "growthRate": 43.6
+      }
+    ]
+  },
+  {
+    "code": "VN-58",
+    "ebiScore": 12.2,
+    "avgMonthlyIncome": 5579000,
+    "monthlyOnlineOrders": 2.7,
+    "avgOrderValue": 226000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 26.9
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 31.2
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 29.7
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 27.4
+      }
+    ]
+  },
+  {
+    "code": "VN-59",
+    "ebiScore": 8.8,
+    "avgMonthlyIncome": 5001000,
+    "monthlyOnlineOrders": 2.3,
+    "avgOrderValue": 213000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 26.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 30.0
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 31.2
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 28.3
+      }
+    ]
+  },
+  {
+    "code": "VN-61",
+    "ebiScore": 13.3,
+    "avgMonthlyIncome": 6784000,
+    "monthlyOnlineOrders": 2.8,
+    "avgOrderValue": 256000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 33.2
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 37.0
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 35.2
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 40.3
+      }
+    ]
+  },
+  {
+    "code": "VN-63",
+    "ebiScore": 14.6,
+    "avgMonthlyIncome": 6357000,
+    "monthlyOnlineOrders": 2.9,
+    "avgOrderValue": 252000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 33.6
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 37.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 35.6
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 40.7
+      }
+    ]
+  },
+  {
+    "code": "VN-66",
+    "ebiScore": 15.4,
+    "avgMonthlyIncome": 6577000,
+    "monthlyOnlineOrders": 3.0,
+    "avgOrderValue": 257000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 33.9
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 37.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 35.8
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 40.9
+      }
+    ]
+  },
+  {
+    "code": "VN-67",
+    "ebiScore": 16.2,
+    "avgMonthlyIncome": 6562000,
+    "monthlyOnlineOrders": 2.9,
+    "avgOrderValue": 246000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 32.0
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 33.0
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 30.7
+      }
+    ]
+  },
+  {
+    "code": "VN-68",
+    "ebiScore": 13.5,
+    "avgMonthlyIncome": 5241000,
+    "monthlyOnlineOrders": 2.7,
+    "avgOrderValue": 223000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 28.1
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 31.3
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 32.4
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 29.8
+      }
+    ]
+  },
+  {
+    "code": "VN-69",
+    "ebiScore": 11.0,
+    "avgMonthlyIncome": 5338000,
+    "monthlyOnlineOrders": 2.6,
+    "avgOrderValue": 233000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 32.4
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 36.3
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 34.6
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 39.5
+      }
+    ]
+  },
+  {
+    "code": "VN-70",
+    "ebiScore": 17.8,
+    "avgMonthlyIncome": 6433000,
+    "monthlyOnlineOrders": 3.1,
+    "avgOrderValue": 258000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 34.7
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 38.3
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 36.5
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 19,
+        "growthRate": 41.7
+      }
+    ]
+  },
+  {
+    "code": "VN-71",
+    "ebiScore": 4.2,
+    "avgMonthlyIncome": 2583000,
+    "monthlyOnlineOrders": 1.7,
+    "avgOrderValue": 173000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 32,
+        "growthRate": 25.7
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 23.0
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 22,
+        "growthRate": 23.3
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 22.0
+      }
+    ]
+  },
+  {
+    "code": "VN-72",
+    "ebiScore": 8.1,
+    "avgMonthlyIncome": 5767000,
+    "monthlyOnlineOrders": 2.4,
+    "avgOrderValue": 222000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 25.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 27,
+        "growthRate": 30.1
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 23,
+        "growthRate": 28.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 26.4
+      }
+    ]
+  },
+  {
+    "code": "VN-73",
+    "ebiScore": 7.3,
+    "avgMonthlyIncome": 4877000,
+    "monthlyOnlineOrders": 2.1,
+    "avgOrderValue": 209000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 26.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 27,
+        "growthRate": 29.5
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 30.8
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 18,
+        "growthRate": 27.8
+      }
+    ]
+  },
+  {
+    "code": "001",
+    "ebiScore": 91.4,
+    "avgMonthlyIncome": 13250000,
+    "monthlyOnlineOrders": 5.8,
+    "avgOrderValue": 365000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 32,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 25,
+        "growthRate": 24.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.2
+      }
+    ]
+  },
+  {
+    "code": "002",
+    "ebiScore": 93.2,
+    "avgMonthlyIncome": 14100000,
+    "monthlyOnlineOrders": 6.1,
+    "avgOrderValue": 385000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 32,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 25,
+        "growthRate": 24.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.2
+      }
+    ]
+  },
+  {
+    "code": "003",
+    "ebiScore": 90.8,
+    "avgMonthlyIncome": 13800000,
+    "monthlyOnlineOrders": 5.7,
+    "avgOrderValue": 390000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 32,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 25,
+        "growthRate": 24.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.2
+      }
+    ]
+  },
+  {
+    "code": "004",
+    "ebiScore": 86.4,
+    "avgMonthlyIncome": 10650000,
+    "monthlyOnlineOrders": 5.0,
+    "avgOrderValue": 320000,
+    "topCategories": [
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 29,
+        "growthRate": 37.5
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 29.4
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 23,
+        "growthRate": 44.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 20,
+        "growthRate": 34.6
+      }
+    ]
+  },
+  {
+    "code": "005",
+    "ebiScore": 94.6,
+    "avgMonthlyIncome": 13450000,
+    "monthlyOnlineOrders": 6.6,
+    "avgOrderValue": 355000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "006",
+    "ebiScore": 93.8,
+    "avgMonthlyIncome": 12950000,
+    "monthlyOnlineOrders": 6.4,
+    "avgOrderValue": 345000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "007",
+    "ebiScore": 91.6,
+    "avgMonthlyIncome": 12400000,
+    "monthlyOnlineOrders": 5.9,
+    "avgOrderValue": 340000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "008",
+    "ebiScore": 85.2,
+    "avgMonthlyIncome": 9850000,
+    "monthlyOnlineOrders": 5.1,
+    "avgOrderValue": 285000,
+    "topCategories": [
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 29,
+        "growthRate": 37.5
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 29.4
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 23,
+        "growthRate": 44.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 20,
+        "growthRate": 34.6
+      }
+    ]
+  },
+  {
+    "code": "009",
+    "ebiScore": 92.5,
+    "avgMonthlyIncome": 12300000,
+    "monthlyOnlineOrders": 6.2,
+    "avgOrderValue": 335000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "019",
+    "ebiScore": 91.8,
+    "avgMonthlyIncome": 11950000,
+    "monthlyOnlineOrders": 6.0,
+    "avgOrderValue": 340000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "021",
+    "ebiScore": 85.6,
+    "avgMonthlyIncome": 9950000,
+    "monthlyOnlineOrders": 5.0,
+    "avgOrderValue": 290000,
+    "topCategories": [
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 29,
+        "growthRate": 37.5
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 29.4
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 23,
+        "growthRate": 44.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 20,
+        "growthRate": 34.6
+      }
+    ]
+  },
+  {
+    "code": "268",
+    "ebiScore": 86.9,
+    "avgMonthlyIncome": 10200000,
+    "monthlyOnlineOrders": 5.3,
+    "avgOrderValue": 295000,
+    "topCategories": [
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 29,
+        "growthRate": 37.5
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 29.4
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 23,
+        "growthRate": 44.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 20,
+        "growthRate": 34.6
+      }
+    ]
+  },
+  {
+    "code": "760",
+    "ebiScore": 96.8,
+    "avgMonthlyIncome": 15800000,
+    "monthlyOnlineOrders": 7.1,
+    "avgOrderValue": 420000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "764",
+    "ebiScore": 89.5,
+    "avgMonthlyIncome": 10450000,
+    "monthlyOnlineOrders": 5.8,
+    "avgOrderValue": 295000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 34,
+        "growthRate": 42.6
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 31.8
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 16,
+        "growthRate": 21.5
+      }
+    ]
+  },
+  {
+    "code": "765",
+    "ebiScore": 93.4,
+    "avgMonthlyIncome": 12600000,
+    "monthlyOnlineOrders": 6.5,
+    "avgOrderValue": 345000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "766",
+    "ebiScore": 92.8,
+    "avgMonthlyIncome": 12150000,
+    "monthlyOnlineOrders": 6.3,
+    "avgOrderValue": 335000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 30.2
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 29,
+        "growthRate": 37.8
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 21,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 19,
+        "growthRate": 23.9
+      }
+    ]
+  },
+  {
+    "code": "767",
+    "ebiScore": 88.9,
+    "avgMonthlyIncome": 10300000,
+    "monthlyOnlineOrders": 5.6,
+    "avgOrderValue": 290000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 34,
+        "growthRate": 42.6
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 31.8
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 16,
+        "growthRate": 21.5
+      }
+    ]
+  },
+  {
+    "code": "768",
+    "ebiScore": 93.6,
+    "avgMonthlyIncome": 13100000,
+    "monthlyOnlineOrders": 6.4,
+    "avgOrderValue": 360000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "769",
+    "ebiScore": 94.2,
+    "avgMonthlyIncome": 12850000,
+    "monthlyOnlineOrders": 6.6,
+    "avgOrderValue": 355000,
+    "topCategories": [
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 28,
+        "growthRate": 29.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 31.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 24,
+        "growthRate": 38.6
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 20,
+        "growthRate": 45.2
+      }
+    ]
+  },
+  {
+    "code": "770",
+    "ebiScore": 95.1,
+    "avgMonthlyIncome": 14400000,
+    "monthlyOnlineOrders": 6.7,
+    "avgOrderValue": 390000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "771",
+    "ebiScore": 93.0,
+    "avgMonthlyIncome": 12750000,
+    "monthlyOnlineOrders": 6.4,
+    "avgOrderValue": 345000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 34,
+        "growthRate": 42.6
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 31.8
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 16,
+        "growthRate": 21.5
+      }
+    ]
+  },
+  {
+    "code": "774",
+    "ebiScore": 91.7,
+    "avgMonthlyIncome": 12350000,
+    "monthlyOnlineOrders": 5.9,
+    "avgOrderValue": 340000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 30.2
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 29,
+        "growthRate": 37.8
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 21,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 19,
+        "growthRate": 23.9
+      }
+    ]
+  },
+  {
+    "code": "778",
+    "ebiScore": 95.4,
+    "avgMonthlyIncome": 14950000,
+    "monthlyOnlineOrders": 6.8,
+    "avgOrderValue": 405000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 32.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 26,
+        "growthRate": 39.4
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.8
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 20,
+        "growthRate": 43.5
+      }
+    ]
+  },
+  {
+    "code": "490",
+    "ebiScore": 22.8,
+    "avgMonthlyIncome": 7250000,
+    "monthlyOnlineOrders": 3.3,
+    "avgOrderValue": 240000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 34,
+        "growthRate": 38.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 27.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 30.4
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 16,
+        "growthRate": 25.8
+      }
+    ]
+  },
+  {
+    "code": "491",
+    "ebiScore": 26.4,
+    "avgMonthlyIncome": 8150000,
+    "monthlyOnlineOrders": 3.7,
+    "avgOrderValue": 260000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 33,
+        "growthRate": 36.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 20,
+        "growthRate": 21.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 18,
+        "growthRate": 31.8
+      }
+    ]
+  },
+  {
+    "code": "492",
+    "ebiScore": 31.5,
+    "avgMonthlyIncome": 9650000,
+    "monthlyOnlineOrders": 4.3,
+    "avgOrderValue": 295000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 33,
+        "growthRate": 36.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 20,
+        "growthRate": 21.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 18,
+        "growthRate": 31.8
+      }
+    ]
+  },
+  {
+    "code": "493",
+    "ebiScore": 25.9,
+    "avgMonthlyIncome": 8350000,
+    "monthlyOnlineOrders": 3.6,
+    "avgOrderValue": 270000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 33,
+        "growthRate": 36.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 20,
+        "growthRate": 21.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 18,
+        "growthRate": 31.8
+      }
+    ]
+  },
+  {
+    "code": "494",
+    "ebiScore": 24.2,
+    "avgMonthlyIncome": 7950000,
+    "monthlyOnlineOrders": 3.4,
+    "avgOrderValue": 265000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 33,
+        "growthRate": 36.4
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 28.9
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 20,
+        "growthRate": 21.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 18,
+        "growthRate": 31.8
+      }
+    ]
+  },
+  {
+    "code": "495",
+    "ebiScore": 23.1,
+    "avgMonthlyIncome": 7550000,
+    "monthlyOnlineOrders": 3.3,
+    "avgOrderValue": 245000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 34,
+        "growthRate": 38.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 30,
+        "growthRate": 27.6
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 20,
+        "growthRate": 30.4
+      },
+      {
+        "category": "Bách hóa & Thực phẩm",
+        "marketShare": 16,
+        "growthRate": 25.8
+      }
+    ]
+  },
+  {
+    "code": "00157",
+    "ebiScore": 93.2,
+    "avgMonthlyIncome": 13100000,
+    "monthlyOnlineOrders": 6.2,
+    "avgOrderValue": 345000,
+    "topCategories": [
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 29,
+        "growthRate": 37.5
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 28,
+        "growthRate": 29.4
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 23,
+        "growthRate": 44.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 20,
+        "growthRate": 34.6
+      }
+    ]
+  },
+  {
+    "code": "00160",
+    "ebiScore": 92.8,
+    "avgMonthlyIncome": 12400000,
+    "monthlyOnlineOrders": 6.3,
+    "avgOrderValue": 330000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "00163",
+    "ebiScore": 93.9,
+    "avgMonthlyIncome": 11850000,
+    "monthlyOnlineOrders": 6.8,
+    "avgOrderValue": 315000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "00166",
+    "ebiScore": 95.1,
+    "avgMonthlyIncome": 13900000,
+    "monthlyOnlineOrders": 6.7,
+    "avgOrderValue": 365000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "00167",
+    "ebiScore": 95.8,
+    "avgMonthlyIncome": 14200000,
+    "monthlyOnlineOrders": 7.0,
+    "avgOrderValue": 370000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "00169",
+    "ebiScore": 93.0,
+    "avgMonthlyIncome": 12600000,
+    "monthlyOnlineOrders": 6.4,
+    "avgOrderValue": 335000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "00172",
+    "ebiScore": 95.2,
+    "avgMonthlyIncome": 14350000,
+    "monthlyOnlineOrders": 6.7,
+    "avgOrderValue": 375000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 32,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 25,
+        "growthRate": 24.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.2
+      }
+    ]
+  },
+  {
+    "code": "00175",
+    "ebiScore": 96.4,
+    "avgMonthlyIncome": 15400000,
+    "monthlyOnlineOrders": 7.1,
+    "avgOrderValue": 395000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 32,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 25,
+        "growthRate": 24.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.2
+      }
+    ]
+  },
+  {
+    "code": "26734",
+    "ebiScore": 95.6,
+    "avgMonthlyIncome": 14900000,
+    "monthlyOnlineOrders": 6.8,
+    "avgOrderValue": 395000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "26737",
+    "ebiScore": 96.2,
+    "avgMonthlyIncome": 15500000,
+    "monthlyOnlineOrders": 6.9,
+    "avgOrderValue": 410000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "26740",
+    "ebiScore": 97.8,
+    "avgMonthlyIncome": 17200000,
+    "monthlyOnlineOrders": 7.4,
+    "avgOrderValue": 450000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "26743",
+    "ebiScore": 97.1,
+    "avgMonthlyIncome": 16400000,
+    "monthlyOnlineOrders": 7.2,
+    "avgOrderValue": 430000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 34,
+        "growthRate": 33.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 28,
+        "growthRate": 40.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 22,
+        "growthRate": 27.2
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 16,
+        "growthRate": 35.6
+      }
+    ]
+  },
+  {
+    "code": "27466",
+    "ebiScore": 92.4,
+    "avgMonthlyIncome": 12300000,
+    "monthlyOnlineOrders": 6.2,
+    "avgOrderValue": 345000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 30.2
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 29,
+        "growthRate": 37.8
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 21,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 19,
+        "growthRate": 23.9
+      }
+    ]
+  },
+  {
+    "code": "27475",
+    "ebiScore": 96.5,
+    "avgMonthlyIncome": 16200000,
+    "monthlyOnlineOrders": 7.1,
+    "avgOrderValue": 425000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 32.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 26,
+        "growthRate": 39.4
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.8
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 20,
+        "growthRate": 43.5
+      }
+    ]
+  },
+  {
+    "code": "27478",
+    "ebiScore": 95.8,
+    "avgMonthlyIncome": 15600000,
+    "monthlyOnlineOrders": 6.9,
+    "avgOrderValue": 415000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 32.9
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 26,
+        "growthRate": 39.4
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.8
+      },
+      {
+        "category": "Mẹ & Bé",
+        "marketShare": 20,
+        "growthRate": 43.5
+      }
+    ]
+  },
+  {
+    "code": "00196",
+    "ebiScore": 94.5,
+    "avgMonthlyIncome": 13300000,
+    "monthlyOnlineOrders": 6.6,
+    "avgOrderValue": 355000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "00199",
+    "ebiScore": 95.6,
+    "avgMonthlyIncome": 14600000,
+    "monthlyOnlineOrders": 6.9,
+    "avgOrderValue": 380000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 32,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 25,
+        "growthRate": 24.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.2
+      }
+    ]
+  },
+  {
+    "code": "00211",
+    "ebiScore": 94.8,
+    "avgMonthlyIncome": 13850000,
+    "monthlyOnlineOrders": 6.7,
+    "avgOrderValue": 365000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 32,
+        "growthRate": 30.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 25,
+        "growthRate": 24.8
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 24,
+        "growthRate": 35.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 19,
+        "growthRate": 34.2
+      }
+    ]
+  },
+  {
+    "code": "00226",
+    "ebiScore": 92.6,
+    "avgMonthlyIncome": 12200000,
+    "monthlyOnlineOrders": 6.2,
+    "avgOrderValue": 330000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "00229",
+    "ebiScore": 94.4,
+    "avgMonthlyIncome": 13150000,
+    "monthlyOnlineOrders": 6.8,
+    "avgOrderValue": 350000,
+    "topCategories": [
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 31,
+        "growthRate": 41.2
+      },
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 29,
+        "growthRate": 32.6
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 23,
+        "growthRate": 26.4
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 17,
+        "growthRate": 35.0
+      }
+    ]
+  },
+  {
+    "code": "VN",
+    "ebiScore": 15.8,
+    "avgMonthlyIncome": 6005000,
+    "monthlyOnlineOrders": 2.6,
+    "avgOrderValue": 245000,
+    "topCategories": [
+      {
+        "category": "FMCG & Mỹ phẩm",
+        "marketShare": 31,
+        "growthRate": 29.5
+      },
+      {
+        "category": "Nhà cửa & Gia dụng",
+        "marketShare": 26,
+        "growthRate": 34.6
+      },
+      {
+        "category": "Thời trang & Phụ kiện",
+        "marketShare": 25,
+        "growthRate": 39.5
+      },
+      {
+        "category": "Công nghệ & Điện tử",
+        "marketShare": 18,
+        "growthRate": 21.8
+      }
     ]
   }
 ]
