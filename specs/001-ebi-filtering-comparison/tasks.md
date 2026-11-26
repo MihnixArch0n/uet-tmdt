@@ -24,9 +24,9 @@ description: "Task list for Layer 3 Purchasing Power, EBI, Market Filter & Compa
 
 **Purpose**: Establish backwards-compatible TypeScript schemas, Zustand Layer 3 state slices, and EN/VI translation keys before story implementation.
 
-- [ ] T001 Add backwards-compatible `EcommerceMetricKey`, `CompareSelection`, `RegionComparisonDelta`, nullable `EcommerceMetric.ebiScore` / `EcommerceMetric.avgMonthlyIncome` / `EcommerceMetric.totalRetailSales`, and `FilterCriteria.maxEbi` / `FilterCriteria.minIncome` / `FilterCriteria.maxIncome` / `FilterCriteria.selectedCategories` (per `data-model.md`) in `src/types/market.ts`
-- [ ] T002 [P] Add Layer 3 state slices (`activeEcommerceMetric`, `matchedRegionCodes`, `isCompareMode`, `compareRegions`, `activeCompareSlot`, `assignCompareRegion`, `swapCompareRegions`, `clearCompareSlot`) with viewport-preserving `setCompareMode` (per `data-model.md` Store State) in `src/store/useMapStore.ts`
-- [ ] T003 [P] Add EN/VI localization strings for EBI, Monthly Income, Total Retail Sales, `"No data"` / `"Chưa có dữ liệu"`, Market Filter controls, and Compare Mode labels in `src/lib/i18n/translations.ts`
+- [X] T001 Add backwards-compatible `EcommerceMetricKey`, `CompareSelection`, `RegionComparisonDelta`, nullable `EcommerceMetric.ebiScore` / `EcommerceMetric.avgMonthlyIncome` / `EcommerceMetric.totalRetailSales`, and `FilterCriteria.maxEbi` / `FilterCriteria.minIncome` / `FilterCriteria.maxIncome` / `FilterCriteria.selectedCategories` (per `data-model.md`) in `src/types/market.ts`
+- [X] T002 [P] Add Layer 3 state slices (`activeEcommerceMetric`, `matchedRegionCodes`, `isCompareMode`, `compareRegions`, `activeCompareSlot`, `assignCompareRegion`, `swapCompareRegions`, `clearCompareSlot`) with viewport-preserving `setCompareMode` (per `data-model.md` Store State) in `src/store/useMapStore.ts`
+- [X] T003 [P] Add EN/VI localization strings for EBI, Monthly Income, Total Retail Sales, `"No data"` / `"Chưa có dữ liệu"`, Market Filter controls, and Compare Mode labels in `src/lib/i18n/translations.ts`
 
 ---
 
@@ -36,8 +36,8 @@ description: "Task list for Layer 3 Purchasing Power, EBI, Market Filter & Compa
 
 **⚠️ CRITICAL**: No user story UI work can begin until this phase is complete.
 
-- [ ] T004 Implement client-side loader `loadEcommerceIndex()`, `validateEcommerceRecords()`, `getMetricValue()`, `computeChoroplethScale()`, `normalizeCategoryTag()`, and `formatMetricValue()` handling `EcommerceMetric.code`, `EcommerceMetric.ebiScore`, `EcommerceMetric.avgMonthlyIncome`, `EcommerceMetric.totalRetailSales`, and `EcommerceMetric.topCategories` (per `data-model.md` and `contracts/layer3-contracts.md`) without mutating `public/data/ecommerce.json` in `src/lib/ecommerceData.ts`
-- [ ] T005 [P] Add schema validation unit tests verifying all 113 records in `public/data/ecommerce.json` against `EcommerceMetric` and confirming `null`/missing `totalRetailSales` never coerces to `0` in `tests/ecommerce.test.ts`
+- [X] T004 Implement client-side loader `loadEcommerceIndex()`, `validateEcommerceRecords()`, `getMetricValue()`, `computeChoroplethScale()`, `normalizeCategoryTag()`, and `formatMetricValue()` handling `EcommerceMetric.code`, `EcommerceMetric.ebiScore`, `EcommerceMetric.avgMonthlyIncome`, `EcommerceMetric.totalRetailSales`, and `EcommerceMetric.topCategories` (per `data-model.md` and `contracts/layer3-contracts.md`) without mutating `public/data/ecommerce.json` in `src/lib/ecommerceData.ts`
+- [X] T005 [P] Add schema validation unit tests verifying all 113 records in `public/data/ecommerce.json` against `EcommerceMetric` and confirming `null`/missing `totalRetailSales` never coerces to `0` in `tests/ecommerce.test.ts`
 
 **Checkpoint**: Foundation ready — `public/data/ecommerce.json` is indexed O(1) by `code` and validated. User stories can now proceed.
 
@@ -51,10 +51,10 @@ description: "Task list for Layer 3 Purchasing Power, EBI, Market Filter & Compa
 
 ### Implementation for User Story 1
 
-- [ ] T006 [US1] Implement MapLibre GL data-driven choropleth `fill-color` (including neutral gray fallback for `null` values per `data-model.md` Null vs. Zero rule) and `fill-opacity` expressions keyed on `['get', 'code']` for `EcommerceMetricKey`, plus hover tooltip and click-to-select routing using atomic Zustand selectors in `src/components/layers/EcommerceLayer.tsx`
-- [ ] T007 [P] [US1] Update `MapLegend` with atomic `useMapStore` selectors to display the active `EcommerceMetricKey` title, unit, dynamic 5-stop min/max range thresholds from `computeChoroplethScale()`, and a neutral-gray `"No data"` swatch in `src/components/map/MapLegend.tsx`
-- [ ] T008 [P] [US1] Add Layer 3 metric selector (`ebiScore`, `avgMonthlyIncome`, `totalRetailSales`) visible when `layers.ecommerce` is enabled using atomic Zustand selectors in `src/components/map/LayerControl.tsx`
-- [ ] T009 [US1] Update `DetailDrawer` with atomic Zustand selectors to display `selectedEcommerce.ebiScore`, `selectedEcommerce.avgMonthlyIncome`, `selectedEcommerce.totalRetailSales` (or `"No data"`), and `selectedEcommerce.topCategories` badges in `src/components/analytics/DetailDrawer.tsx`
+- [X] T006 [US1] Implement MapLibre GL data-driven choropleth `fill-color` (including neutral gray fallback for `null` values per `data-model.md` Null vs. Zero rule) and `fill-opacity` expressions keyed on `['get', 'code']` for `EcommerceMetricKey`, plus hover tooltip and click-to-select routing using atomic Zustand selectors in `src/components/layers/EcommerceLayer.tsx`
+- [X] T007 [P] [US1] Update `MapLegend` with atomic `useMapStore` selectors to display the active `EcommerceMetricKey` title, unit, dynamic 5-stop min/max range thresholds from `computeChoroplethScale()`, and a neutral-gray `"No data"` swatch in `src/components/map/MapLegend.tsx`
+- [X] T008 [P] [US1] Add Layer 3 metric selector (`ebiScore`, `avgMonthlyIncome`, `totalRetailSales`) visible when `layers.ecommerce` is enabled using atomic Zustand selectors in `src/components/map/LayerControl.tsx`
+- [X] T009 [US1] Update `DetailDrawer` with atomic Zustand selectors to display `selectedEcommerce.ebiScore`, `selectedEcommerce.avgMonthlyIncome`, `selectedEcommerce.totalRetailSales` (or `"No data"`), and `selectedEcommerce.topCategories` badges in `src/components/analytics/DetailDrawer.tsx`
 
 **Checkpoint**: User Story 1 (MVP) is fully functional and independently testable.
 
@@ -68,14 +68,14 @@ description: "Task list for Layer 3 Purchasing Power, EBI, Market Filter & Compa
 
 ### Tests for User Story 2
 
-- [ ] T010 [P] [US2] Add unit tests for `evaluateMarketFilters()` covering `FilterCriteria.minEbi`/`maxEbi`, `FilterCriteria.minIncome`/`maxIncome`, inclusive-OR `FilterCriteria.selectedCategories`, `null` metric exclusion, and empty result sets in `tests/ecommerce.test.ts`
+- [X] T010 [P] [US2] Add unit tests for `evaluateMarketFilters()` covering `FilterCriteria.minEbi`/`maxEbi`, `FilterCriteria.minIncome`/`maxIncome`, inclusive-OR `FilterCriteria.selectedCategories`, `null` metric exclusion, and empty result sets in `tests/ecommerce.test.ts`
 
 ### Implementation for User Story 2
 
-- [ ] T011 [US2] Implement pure filter evaluation engine `evaluateMarketFilters()` returning `matchedCodes`, `matchedCount`, `totalCount`, and `matchingRecords` (per `data-model.md` `FilterCriteria` and `contracts/layer3-contracts.md`) in `src/lib/ecommerceFilter.ts`
-- [ ] T012 [US2] Build `MarketFilterPanel` with EBI min/max inputs, Income min/max inputs, multi-select category pills (`F&B`, `Fashion`, `Tech`, `FMCG`), live `"X / Y match"` counter, clickable matched region list (`flyToRegion`), empty-state message, and single-click Reset button using atomic Zustand selectors in `src/components/search/MarketFilterPanel.tsx`
-- [ ] T013 [P] [US2] Replace legacy filter panel implementation with a clean re-export of `@/components/search/MarketFilterPanel` to preserve existing `Navbar` imports without modifying `Navbar.tsx` in `src/components/filters/MarketFilterPanel.tsx`
-- [ ] T014 [US2] Wire `matchedRegionCodes` into `EcommerceLayer` MapLibre `fill-opacity` and highlight border expressions so matching regions stand out (`0.82` opacity) and non-matching regions dim (`0.15` opacity) at 60fps in `src/components/layers/EcommerceLayer.tsx`
+- [X] T011 [US2] Implement pure filter evaluation engine `evaluateMarketFilters()` returning `matchedCodes`, `matchedCount`, `totalCount`, and `matchingRecords` (per `data-model.md` `FilterCriteria` and `contracts/layer3-contracts.md`) in `src/lib/ecommerceFilter.ts`
+- [X] T012 [US2] Build `MarketFilterPanel` with EBI min/max inputs, Income min/max inputs, multi-select category pills (`F&B`, `Fashion`, `Tech`, `FMCG`), live `"X / Y match"` counter, clickable matched region list (`flyToRegion`), empty-state message, and single-click Reset button using atomic Zustand selectors in `src/components/search/MarketFilterPanel.tsx`
+- [X] T013 [P] [US2] Replace legacy filter panel implementation with a clean re-export of `@/components/search/MarketFilterPanel` to preserve existing `Navbar` imports without modifying `Navbar.tsx` in `src/components/filters/MarketFilterPanel.tsx`
+- [X] T014 [US2] Wire `matchedRegionCodes` into `EcommerceLayer` MapLibre `fill-opacity` and highlight border expressions so matching regions stand out (`0.82` opacity) and non-matching regions dim (`0.15` opacity) at 60fps in `src/components/layers/EcommerceLayer.tsx`
 
 **Checkpoint**: User Stories 1 and 2 both work independently and together without page reloads.
 
@@ -89,14 +89,14 @@ description: "Task list for Layer 3 Purchasing Power, EBI, Market Filter & Compa
 
 ### Tests for User Story 3
 
-- [ ] T015 [P] [US3] Add unit tests for `computeComparisonDelta()` and `hasAdminLevelMismatch()` verifying `RegionComparisonDelta.absDiff`, `RegionComparisonDelta.pctDiff`, `RegionComparisonDelta.leader`, `null` -> `"na"`, and `valueB === 0` zero-division safety in `tests/ecommerce.test.ts`
+- [X] T015 [P] [US3] Add unit tests for `computeComparisonDelta()` and `hasAdminLevelMismatch()` verifying `RegionComparisonDelta.absDiff`, `RegionComparisonDelta.pctDiff`, `RegionComparisonDelta.leader`, `null` -> `"na"`, and `valueB === 0` zero-division safety in `tests/ecommerce.test.ts`
 
 ### Implementation for User Story 3
 
-- [ ] T016 [US3] Implement pure comparison helpers `computeComparisonDelta()` and `hasAdminLevelMismatch()` (per `data-model.md` `RegionComparisonDelta` & Scale Parity rules) in `src/lib/ecommerceCompare.ts`
-- [ ] T017 [US3] Build `ComparePanel` with Slot A & Slot B region selectors, duplicate-region warning, cross-level (`AdminLevel`) scale-difference banner, side-by-side EBI / Income / Retail Sales / Top Categories display, Recharts/Tailwind comparison bars, delta/leader badges, Swap, Clear Slot, and Exit buttons using atomic Zustand selectors in `src/components/dashboard/ComparePanel.tsx`
-- [ ] T018 [US3] Update `EcommerceLayer` click handler to route polygon clicks to `assignCompareRegion()` when `isCompareMode === true` (without overwriting `selectedRegion` or `viewState`) and render distinct Slot A / Slot B outline highlights in `src/components/layers/EcommerceLayer.tsx`
-- [ ] T019 [US3] Mount `ComparePanel` and expose Compare Mode toggle trigger cleanly in `src/app/page.tsx` and `src/components/layout/Navbar.tsx` (minimal coordination-only wiring; do NOT alter unrelated layout/nav items)
+- [X] T016 [US3] Implement pure comparison helpers `computeComparisonDelta()` and `hasAdminLevelMismatch()` (per `data-model.md` `RegionComparisonDelta` & Scale Parity rules) in `src/lib/ecommerceCompare.ts`
+- [X] T017 [US3] Build `ComparePanel` with Slot A & Slot B region selectors, duplicate-region warning, cross-level (`AdminLevel`) scale-difference banner, side-by-side EBI / Income / Retail Sales / Top Categories display, Recharts/Tailwind comparison bars, delta/leader badges, Swap, Clear Slot, and Exit buttons using atomic Zustand selectors in `src/components/dashboard/ComparePanel.tsx`
+- [X] T018 [US3] Update `EcommerceLayer` click handler to route polygon clicks to `assignCompareRegion()` when `isCompareMode === true` (without overwriting `selectedRegion` or `viewState`) and render distinct Slot A / Slot B outline highlights in `src/components/layers/EcommerceLayer.tsx`
+- [X] T019 [US3] Mount `ComparePanel` and expose Compare Mode toggle trigger cleanly in `src/app/page.tsx` and `src/components/layout/Navbar.tsx` (minimal coordination-only wiring; do NOT alter unrelated layout/nav items)
 
 **Checkpoint**: All 3 user stories (Choropleth, Market Filter, Compare Mode) are independently functional and integrated.
 
@@ -106,9 +106,9 @@ description: "Task list for Layer 3 Purchasing Power, EBI, Market Filter & Compa
 
 **Purpose**: Finalize unit test execution, static analysis, production build, and end-to-end validation.
 
-- [ ] T020 Run Layer 3 unit test suite `node --test tests/ecommerce.test.ts` and fix any failing assertions
-- [ ] T021 Run `pnpm run lint && pnpm run build` and verify zero ESLint warnings/errors and clean TypeScript production build
-- [ ] T022 Verify all interactive scenarios in `specs/001-ebi-filtering-comparison/quickstart.md` and confirm `git status` shows zero unintended edits to `public/data/ecommerce.json`, `BaseMap.tsx`, `BoundaryLayer.tsx`, `PopulationLayer.tsx`, `PoiLayer.tsx`, or `/api/analyze/*`
+- [X] T020 Run Layer 3 unit test suite `node --test tests/ecommerce.test.ts` and fix any failing assertions
+- [X] T021 Run `pnpm run lint && pnpm run build` and verify zero ESLint warnings/errors and clean TypeScript production build
+- [X] T022 Verify all interactive scenarios in `specs/001-ebi-filtering-comparison/quickstart.md` and confirm `git status` shows zero unintended edits to `public/data/ecommerce.json`, `BaseMap.tsx`, `BoundaryLayer.tsx`, `PopulationLayer.tsx`, `PoiLayer.tsx`, or `/api/analyze/*`
 
 ---
 
