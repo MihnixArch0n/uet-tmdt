@@ -3,6 +3,7 @@
 import dynamic from 'next/dynamic';
 import { Navbar } from '@/components/layout/Navbar';
 import { DetailDrawer } from '@/components/analytics/DetailDrawer';
+import { ComparePanel } from '@/components/dashboard/ComparePanel';
 import { AiConsultantDialog } from '@/components/decision/AiConsultantDialog';
 import { Loader2 } from 'lucide-react';
 
@@ -30,6 +31,9 @@ export default function Home() {
 
         {/* Region Detail Inspector Drawer (Member 3) */}
         <DetailDrawer />
+
+        {/* Two-Region Compare Panel (Member 4) */}
+        <ComparePanel />
 
         {/* Strategic AI Consultant Modal (Member 1) */}
         <AiConsultantDialog />
