@@ -28,10 +28,39 @@ export interface TranslationDictionary {
     title: string;
     reset: string;
     minEbi: string;
+    maxEbi: string;
     minPopulation: string;
     minIncome: string;
+    maxIncome: string;
     categories: string;
     activeNotice: string;
+    matchCount: string;
+    emptyTitle: string;
+    emptyHint: string;
+    matchedRegions: string;
+  };
+  compare: {
+    buttonLabel: string;
+    title: string;
+    slotA: string;
+    slotB: string;
+    selectPlaceholder: string;
+    clickMapHint: string;
+    swap: string;
+    clear: string;
+    exit: string;
+    duplicateWarning: string;
+    levelMismatchWarning: string;
+    leaderBadge: string;
+    tieLabel: string;
+    topCategories: string;
+  };
+  ecommerceMetrics: {
+    label: string;
+    ebiScore: string;
+    avgMonthlyIncome: string;
+    totalRetailSales: string;
+    noData: string;
   };
   siteSelection: {
     buttonLabel: string;
@@ -137,12 +166,41 @@ export const translations: Record<Language, TranslationDictionary> = {
     filters: {
       buttonLabel: 'Bộ Lọc Thị Trường',
       title: 'Tiêu Chí Lọc Thị Trường',
-      reset: 'Thiết lập lại',
-      minEbi: 'Chỉ số EBI tối thiểu',
+      reset: 'Đặt lại bộ lọc',
+      minEbi: 'EBI tối thiểu',
+      maxEbi: 'EBI tối đa',
       minPopulation: 'Dân số tối thiểu',
-      minIncome: 'Thu nhập bình quân tối thiểu',
-      categories: 'Ngành hàng quan tâm',
+      minIncome: 'Thu nhập tối thiểu (triệu/tháng)',
+      maxIncome: 'Thu nhập tối đa (triệu/tháng)',
+      categories: 'Ngành hàng tiềm năng',
       activeNotice: 'Đang áp dụng bộ lọc',
+      matchCount: '{matched} / {total} khu vực phù hợp',
+      emptyTitle: 'Không có khu vực nào phù hợp',
+      emptyHint: 'Hãy nới lỏng ngưỡng EBI, thu nhập hoặc chọn thêm ngành hàng.',
+      matchedRegions: 'Khu vực phù hợp',
+    },
+    compare: {
+      buttonLabel: 'So Sánh',
+      title: 'So Sánh Hai Khu Vực',
+      slotA: 'Khu vực A',
+      slotB: 'Khu vực B',
+      selectPlaceholder: 'Chọn khu vực...',
+      clickMapHint: 'Nhấp trực tiếp trên bản đồ hoặc chọn từ danh sách',
+      swap: 'Đổi A ↔ B',
+      clear: 'Xóa',
+      exit: 'Thoát so sánh',
+      duplicateWarning: 'Vui lòng chọn hai khu vực khác nhau để so sánh.',
+      levelMismatchWarning: 'Lưu ý: Hai khu vực khác cấp hành chính — số liệu có thể chênh lệch theo quy mô.',
+      leaderBadge: 'Dẫn đầu',
+      tieLabel: 'Ngang bằng',
+      topCategories: 'Ngành hàng tiềm năng',
+    },
+    ecommerceMetrics: {
+      label: 'Chỉ số hiển thị',
+      ebiScore: 'Chỉ số TMĐT (EBI)',
+      avgMonthlyIncome: 'Thu nhập TB/người/tháng',
+      totalRetailSales: 'Tổng mức bán lẻ HH & DV',
+      noData: 'Chưa có dữ liệu',
     },
     siteSelection: {
       buttonLabel: 'Đánh Giá Vị Trí Vùng Đệm',
@@ -246,12 +304,41 @@ export const translations: Record<Language, TranslationDictionary> = {
     filters: {
       buttonLabel: 'Market Filters',
       title: 'Market Filter Criteria',
-      reset: 'Reset',
-      minEbi: 'Minimum EBI Score',
+      reset: 'Reset Filters',
+      minEbi: 'Min EBI Score',
+      maxEbi: 'Max EBI Score',
       minPopulation: 'Minimum Population',
-      minIncome: 'Minimum Average Income',
-      categories: 'Target Product Categories',
+      minIncome: 'Min Monthly Income (M VND)',
+      maxIncome: 'Max Monthly Income (M VND)',
+      categories: 'Potential Product Categories',
       activeNotice: 'Filters are active',
+      matchCount: '{matched} / {total} regions match',
+      emptyTitle: 'No matching regions found',
+      emptyHint: 'Try relaxing your EBI, income, or category filter criteria.',
+      matchedRegions: 'Matched Regions',
+    },
+    compare: {
+      buttonLabel: 'Compare',
+      title: 'Two-Region Comparison',
+      slotA: 'Region A',
+      slotB: 'Region B',
+      selectPlaceholder: 'Select a region...',
+      clickMapHint: 'Click a region on the map or pick from the selector',
+      swap: 'Swap A ↔ B',
+      clear: 'Clear',
+      exit: 'Exit Compare',
+      duplicateWarning: 'Please select two distinct regions to compare.',
+      levelMismatchWarning: 'Note: Selected regions are at different administrative levels — scale may differ.',
+      leaderBadge: 'Leads',
+      tieLabel: 'Tie',
+      topCategories: 'Top Online Categories',
+    },
+    ecommerceMetrics: {
+      label: 'Active Metric',
+      ebiScore: 'E-Commerce Index (EBI)',
+      avgMonthlyIncome: 'Avg. Monthly Income',
+      totalRetailSales: 'Total Retail Sales',
+      noData: 'No data',
     },
     siteSelection: {
       buttonLabel: 'Site Selection Tool',

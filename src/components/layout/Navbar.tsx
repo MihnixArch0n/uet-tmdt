@@ -4,12 +4,16 @@ import React, { useEffect } from 'react';
 import { SearchBar } from '../search/SearchBar';
 import { MarketFilterPanel } from '../filters/MarketFilterPanel';
 import { SiteSelectionTool } from '../decision/SiteSelectionTool';
-import { Map, Sparkles, SunMedium, Moon, Globe } from 'lucide-react';
+import { Map, Sparkles, SunMedium, Moon, Globe, GitCompare } from 'lucide-react';
 import { useMapStore } from '@/store/useMapStore';
 import { useTranslation } from '@/lib/i18n/useTranslation';
 
 export function Navbar() {
-  const { setAiModalOpen, theme, toggleTheme } = useMapStore();
+  const setAiModalOpen = useMapStore((s) => s.setAiModalOpen);
+  const theme = useMapStore((s) => s.theme);
+  const toggleTheme = useMapStore((s) => s.toggleTheme);
+  const isCompareMode = useMapStore((s) => s.isCompareMode);
+  const setCompareMode = useMapStore((s) => s.setCompareMode);
   const { t, language, setLanguage } = useTranslation();
   const hydratePreferences = useMapStore((state) => state.hydratePreferences);
 
@@ -49,6 +53,20 @@ export function Navbar() {
 
         {/* Multi-criteria filter panel (Member 4) */}
         <MarketFilterPanel />
+
+        {/* Two-Region Compare Mode toggle (Member 4) */}
+        <button
+          type="button"
+          onClick={() => setCompareMode(!isCompareMode)}
+          className={`flex items-center gap-1.5 px-3 py-2 rounded-xl border text-sm font-medium shadow-sm transition-all cursor-pointer ${
+            isCompareMode
+              ? 'bg-indigo-600 text-white border-indigo-600'
+              : 'bg-white dark:bg-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-700/80 border-zinc-200 dark:border-zinc-700 text-zinc-700 dark:text-zinc-200'
+          }`}
+        >
+          <GitCompare className="w-4 h-4" />
+          <span className="hidden sm:inline">{t.compare.buttonLabel}</span>
+        </button>
 
         {/* AI Strategic consultant trigger (Member 1) */}
         <button

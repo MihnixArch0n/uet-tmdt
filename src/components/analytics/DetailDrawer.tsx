@@ -3,17 +3,16 @@
 import React from 'react';
 import { useMapStore } from '@/store/useMapStore';
 import { useTranslation } from '@/lib/i18n/useTranslation';
-import { X, Sparkles, TrendingUp, Users } from 'lucide-react';
+import { formatMetricValue } from '@/lib/ecommerceData';
+import { X, Sparkles, TrendingUp, Users, Wallet, ShoppingBag } from 'lucide-react';
 import { DemographicCharts } from './DemographicCharts';
 
 export function DetailDrawer() {
-  const { 
-    selectedRegion, 
-    selectedDemographics, 
-    selectedEcommerce, 
-    setSelectedRegion,
-    setAiModalOpen 
-  } = useMapStore();
+  const selectedRegion = useMapStore((s) => s.selectedRegion);
+  const selectedDemographics = useMapStore((s) => s.selectedDemographics);
+  const selectedEcommerce = useMapStore((s) => s.selectedEcommerce);
+  const setSelectedRegion = useMapStore((s) => s.setSelectedRegion);
+  const setAiModalOpen = useMapStore((s) => s.setAiModalOpen);
   const { t, language } = useTranslation();
 
   if (!selectedRegion) return null;
@@ -59,7 +58,7 @@ export function DetailDrawer() {
               {selectedDemographics?.population.toLocaleString() || '---'}
             </div>
             <div className="text-[10px] text-zinc-400 dark:text-zinc-500">
-              {t.drawer.density}: {selectedDemographics?.density.toLocaleString()} {t.drawer.densityUnit}
+              {t.drawer.density}: {selectedDemographics?.density?.toLocaleString() ?? '---'} {t.drawer.densityUnit}
             </div>
           </div>
 
@@ -69,13 +68,56 @@ export function DetailDrawer() {
               <span>{t.drawer.ebiScore}</span>
             </div>
             <div className="text-base font-bold text-zinc-900 dark:text-zinc-100">
-              {selectedEcommerce?.ebiScore ? `${selectedEcommerce.ebiScore}/100` : '---'}
+              {formatMetricValue(selectedEcommerce?.ebiScore, 'ebiScore', language)}
             </div>
             <div className="text-[10px] text-zinc-400 dark:text-zinc-500">
-              {selectedEcommerce?.monthlyOnlineOrders} {language === 'vi' ? 'đơn/người/tháng' : 'orders/user/mo'}
+              {selectedEcommerce?.monthlyOnlineOrders ?? '---'}{' '}
+              {language === 'vi' ? 'đơn/người/tháng' : 'orders/user/mo'}
+            </div>
+          </div>
+
+          <div className="bg-zinc-50 dark:bg-zinc-800/60 p-3 rounded-xl border border-zinc-100 dark:border-zinc-800">
+            <div className="flex items-center gap-1.5 text-zinc-500 dark:text-zinc-400 text-xs mb-1">
+              <Wallet className="w-3.5 h-3.5 text-indigo-500" />
+              <span>{t.drawer.avgIncome}</span>
+            </div>
+            <div className="text-sm font-bold text-zinc-900 dark:text-zinc-100">
+              {formatMetricValue(selectedEcommerce?.avgMonthlyIncome, 'avgMonthlyIncome', language)}
+            </div>
+          </div>
+
+          <div className="bg-zinc-50 dark:bg-zinc-800/60 p-3 rounded-xl border border-zinc-100 dark:border-zinc-800">
+            <div className="flex items-center gap-1.5 text-zinc-500 dark:text-zinc-400 text-xs mb-1">
+              <ShoppingBag className="w-3.5 h-3.5 text-rose-500" />
+              <span>{t.ecommerceMetrics.totalRetailSales}</span>
+            </div>
+            <div className="text-sm font-bold text-zinc-900 dark:text-zinc-100">
+              {formatMetricValue(selectedEcommerce?.totalRetailSales, 'totalRetailSales', language)}
             </div>
           </div>
         </div>
+
+        {/* Top Online Categories */}
+        {selectedEcommerce?.topCategories && selectedEcommerce.topCategories.length > 0 && (
+          <div className="bg-zinc-50 dark:bg-zinc-800/40 p-3 rounded-xl border border-zinc-100 dark:border-zinc-800 space-y-2">
+            <div className="text-xs font-semibold text-zinc-700 dark:text-zinc-300">
+              {t.compare.topCategories}
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {selectedEcommerce.topCategories.map((cat) => (
+                <span
+                  key={cat.category}
+                  className="inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[11px] font-medium bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 text-zinc-700 dark:text-zinc-200"
+                >
+                  <span>{cat.category}</span>
+                  <span className="text-indigo-600 dark:text-indigo-400 font-semibold">
+                    {cat.marketShare}%
+                  </span>
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* AI Strategic Consultation trigger button */}
         <button
