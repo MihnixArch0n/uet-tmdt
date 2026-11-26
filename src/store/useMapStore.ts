@@ -1,11 +1,11 @@
 import { create } from 'zustand';
-import { 
-  LayerVisibilityState, 
-  FilterCriteria, 
-  RegionProperties, 
-  DemographicMetric, 
+import {
+  LayerVisibilityState,
+  FilterCriteria,
+  RegionProperties,
+  DemographicMetric,
   EcommerceMetric,
-  SiteAnalysisResult 
+  SiteAnalysisResult
 } from '@/types/market';
 import { Language } from '@/lib/i18n/translations';
 
@@ -20,6 +20,8 @@ export interface ViewState {
 }
 
 interface MapStore {
+  hydratePreferences: () => void;
+
   // Theme & Language
   theme: ThemeMode;
   setTheme: (theme: ThemeMode) => void;
@@ -42,8 +44,8 @@ interface MapStore {
   selectedDemographics: DemographicMetric | null;
   selectedEcommerce: EcommerceMetric | null;
   setSelectedRegion: (
-    region: RegionProperties | null, 
-    demo?: DemographicMetric | null, 
+    region: RegionProperties | null,
+    demo?: DemographicMetric | null,
     ecom?: EcommerceMetric | null
   ) => void;
 
@@ -71,23 +73,6 @@ interface MapStore {
   setAiModalOpen: (open: boolean) => void;
 }
 
-function getInitialTheme(): ThemeMode {
-  if (typeof window !== 'undefined') {
-    const saved = localStorage.getItem('app_theme');
-    if (saved === 'dark' || saved === 'light') return saved;
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
-  }
-  return 'light';
-}
-
-function getInitialLanguage(): Language {
-  if (typeof window !== 'undefined') {
-    const saved = localStorage.getItem('app_lang');
-    if (saved === 'vi' || saved === 'en') return saved;
-  }
-  return 'vi';
-}
-
 // Default Viewport centered on Vietnam
 const DEFAULT_VIEW_STATE: ViewState = {
   longitude: 106.0,
@@ -98,7 +83,26 @@ const DEFAULT_VIEW_STATE: ViewState = {
 };
 
 export const useMapStore = create<MapStore>((set) => ({
-  theme: getInitialTheme(),
+  theme: 'dark',
+  language: 'en',
+  hydratePreferences: () => {
+    if (typeof window === 'undefined') return;
+
+    const savedTheme = localStorage.getItem('app_theme');
+    let nextTheme: ThemeMode = 'light';
+    if (savedTheme === 'dark' || savedTheme === 'light') {
+      nextTheme = savedTheme;
+    } else if (window.matchMedia?.('(prefers-color-scheme: dark)').matches) {
+      nextTheme = 'dark';
+    }
+
+    document.documentElement.classList.toggle('dark', nextTheme === 'dark');
+
+    const savedLang = localStorage.getItem('app_lang');
+    const nextLang: Language = savedLang === 'en' || savedLang === 'vi' ? savedLang : 'vi';
+
+    set({ theme: nextTheme, language: nextLang });
+  },
   setTheme: (theme) => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('app_theme', theme);
@@ -125,7 +129,6 @@ export const useMapStore = create<MapStore>((set) => ({
     });
   },
 
-  language: getInitialLanguage(),
   setLanguage: (lang) => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('app_lang', lang);

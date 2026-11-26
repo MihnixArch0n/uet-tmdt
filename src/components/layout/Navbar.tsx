@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { SearchBar } from '../search/SearchBar';
 import { MarketFilterPanel } from '../filters/MarketFilterPanel';
 import { SiteSelectionTool } from '../decision/SiteSelectionTool';
@@ -11,6 +11,11 @@ import { useTranslation } from '@/lib/i18n/useTranslation';
 export function Navbar() {
   const { setAiModalOpen, theme, toggleTheme } = useMapStore();
   const { t, language, setLanguage } = useTranslation();
+  const hydratePreferences = useMapStore((state) => state.hydratePreferences);
+
+  useEffect(() => {
+    hydratePreferences();
+  }, [hydratePreferences]);
 
   return (
     <header className="h-16 px-4 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 flex items-center justify-between z-30 relative shrink-0 shadow-sm transition-colors">

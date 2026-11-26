@@ -12,21 +12,28 @@ import { PopulationLayer } from '../layers/PopulationLayer';
 import { EcommerceLayer } from '../layers/EcommerceLayer';
 import { PoiLayer } from '../layers/PoiLayer';
 import { analyzeSiteBuffer } from '@/lib/spatial';
+import { setWorkerUrl } from "maplibre-gl";
 
 const MAP_STYLE_LIGHT = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
 const MAP_STYLE_DARK = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
+if (typeof window !== "undefined") {
+  setWorkerUrl(
+    new URL("maplibre-gl/dist/maplibre-gl-worker.mjs", import.meta.url).toString()
+  );
+}
+
 export default function BaseMap() {
   const mapRef = useRef<MapRef>(null);
-  const { 
-    viewState, 
-    setViewState, 
-    layers, 
+  const {
+    viewState,
+    setViewState,
+    layers,
     theme,
-    isSiteSelectionActive, 
-    siteRadiusKm, 
+    isSiteSelectionActive,
+    siteRadiusKm,
     setLastSiteAnalysis,
-    setSiteSelectionActive 
+    setSiteSelectionActive
   } = useMapStore();
   const { t } = useTranslation();
 
@@ -77,7 +84,7 @@ export default function BaseMap() {
       {isSiteSelectionActive && (
         <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 bg-amber-500 text-white px-4 py-2 rounded-full shadow-lg text-sm font-medium flex items-center gap-3 animate-pulse">
           <span>{t.siteSelection.clickPrompt}</span>
-          <button 
+          <button
             onClick={() => setSiteSelectionActive(false)}
             className="bg-black/20 hover:bg-black/40 px-2 py-0.5 rounded-full text-xs cursor-pointer"
           >
